@@ -35,7 +35,10 @@ const CTASection = () => {
             <p className="text-muted-foreground mb-6 text-sm">
               Get a custom Reddit growth plan tailored to your brand and objectives.
             </p>
-            <button className="glow-button w-full text-lg font-bold">
+            <button 
+              className="glow-button w-full text-lg font-bold"
+              onClick={() => window.location.href = '/booking'}
+            >
               Book Free Call
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>
@@ -53,22 +56,14 @@ const CTASection = () => {
             <p className="text-muted-foreground mb-6 text-sm">
               Have questions? Get instant answers about our Reddit growth services.
             </p>
-            <button className="gold-button w-full text-lg font-bold">
+            <button 
+              className="gold-button w-full text-lg font-bold"
+              onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
+            >
               Start Chat
             </button>
           </div>
           
-          {/* Tertiary CTA */}
-          <div className="luxury-card p-8 group">
-            <Trophy className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-            <h3 className="font-heading text-xl font-bold mb-4">Case Studies</h3>
-            <p className="text-muted-foreground mb-6 text-sm">
-              See detailed breakdowns of our most successful Reddit campaigns.
-            </p>
-            <button className="bg-muted text-muted-foreground hover:bg-muted-foreground hover:text-background transition-colors duration-300 font-bold px-8 py-4 rounded-full w-full text-lg">
-              Download Free
-            </button>
-          </div>
         </div>
         
         {/* Urgency & Social Proof */}
@@ -86,7 +81,7 @@ const CTASection = () => {
               <div className="text-center border-l border-r border-border/20 md:px-8">
                 <div className="text-3xl font-display font-black luxury-text mb-2">Fast</div>
                 <div className="text-muted-foreground text-sm">
-                  See results within 30 days or get your money back
+                  See results within 30 days
                 </div>
               </div>
               
@@ -108,7 +103,10 @@ const CTASection = () => {
             <span className="text-accent">Don't let them get ahead.</span>
           </p>
           
-          <button className="glow-button text-2xl font-black px-12 py-6">
+          <button 
+            className="glow-button text-2xl font-black px-12 py-6"
+            onClick={() => window.location.href = '/booking'}
+          >
             CLAIM YOUR SPOT NOW
           </button>
           

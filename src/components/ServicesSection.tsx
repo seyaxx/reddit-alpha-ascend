@@ -104,7 +104,10 @@ const ServicesSection = () => {
             <p className="font-body text-muted-foreground mb-8 text-lg">
               Get a custom Reddit growth strategy tailored specifically to your brand and objectives.
             </p>
-            <button className="glow-button text-lg font-bold">
+            <button 
+              className="glow-button text-lg font-bold"
+              onClick={() => window.location.href = '/booking'}
+            >
               Get Your Custom Strategy
             </button>
           </div>

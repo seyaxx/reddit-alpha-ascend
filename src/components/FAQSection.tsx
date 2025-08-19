@@ -109,7 +109,10 @@ const FAQSection = () => {
             <p className="font-body text-muted-foreground mb-6">
               Get personalized answers and a custom Reddit growth strategy for your brand.
             </p>
-            <button className="glow-button text-lg font-bold">
+            <button 
+              className="glow-button text-lg font-bold"
+              onClick={() => window.location.href = '/booking'}
+            >
               Schedule a Strategy Call
             </button>
           </div>

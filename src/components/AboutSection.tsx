@@ -80,11 +80,17 @@ const AboutSection = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <button className="glow-button text-lg font-bold">
+                <button 
+                  className="glow-button text-lg font-bold"
+                  onClick={() => window.location.href = '/booking'}
+                >
                   Work With Me
                 </button>
-                <button className="gold-button text-lg font-bold">
-                  My LinkedIn
+                <button 
+                  className="gold-button text-lg font-bold"
+                  onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
+                >
+                  Contact Me
                 </button>
               </div>
             </div>

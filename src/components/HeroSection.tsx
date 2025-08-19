@@ -26,14 +26,14 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-luxury-fade-in [animation-delay:0.6s]">
-          <Button className="glow-button text-lg">
+          <Button 
+            className="glow-button text-lg"
+            onClick={() => window.location.href = '/booking'}
+          >
             Book a Strategy Session
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
-          <Button className="gold-button text-lg">
-            View Case Studies
-          </Button>
         </div>
         
         {/* Trust Indicators */}

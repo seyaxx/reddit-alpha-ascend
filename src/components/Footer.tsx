@@ -33,14 +33,6 @@ const Footer = () => {
                   <Mail className="w-5 h-5 text-accent mr-3" />
                   <span className="font-body">hello@redseya.com</span>
                 </div>
-                <div className="flex items-center text-muted-foreground">
-                  <Phone className="w-5 h-5 text-accent mr-3" />
-                  <span className="font-body">+1 (555) REDSEYA</span>
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <MapPin className="w-5 h-5 text-accent mr-3" />
-                  <span className="font-body">Global Remote Operations</span>
-                </div>
               </div>
             </div>
             
@@ -78,11 +70,8 @@ const Footer = () => {
               </h4>
               <ul className="space-y-3">
                 {[
-                  { label: "About Us", href: "#about" },
-                  { label: "Case Studies", href: "#results" },
-                  { label: "Process", href: "#process" },
-                  { label: "FAQ", href: "#faq" },
-                  { label: "Contact", href: "#contact" },
+                  { label: "About Us", href: "/about" },
+                  { label: "FAQ", href: "/faq" },
                   { label: "Privacy Policy", href: "/privacy" }
                 ].map((link) => (
                   <li key={link.label}>
@@ -118,8 +107,8 @@ const Footer = () => {
                 
                 {/* Social Media Links */}
                 <div className="flex space-x-4">
-                  {[
-                    { name: "LinkedIn", href: "#" },
+                {[
+                    { name: "Telegram", href: "https://t.me/teodorxseya" },
                     { name: "Twitter", href: "#" },
                     { name: "Reddit", href: "#" }
                   ].map((social) => (
@@ -158,7 +147,10 @@ const Footer = () => {
                   Ready to dominate Reddit? Let's build your empire.
                 </p>
               </div>
-              <button className="gold-button font-bold">
+              <button 
+                className="gold-button font-bold"
+                onClick={() => window.location.href = '/booking'}
+              >
                 Start Your Domination
               </button>
             </div>

@@ -178,24 +178,6 @@ const ResultsSection = () => {
           </div>
         </div>
         
-        {/* Case Study CTA */}
-        <div className="mt-20 text-center">
-          <div className="luxury-card p-12 max-w-4xl mx-auto">
-            <h3 className="font-heading text-3xl font-bold mb-4">
-              Want to See <span className="luxury-text">Detailed Case Studies</span>?
-            </h3>
-            <p className="font-body text-muted-foreground mb-8 text-lg">
-              Get exclusive access to our complete campaign breakdowns, including strategies, 
-              content samples, and month-by-month growth metrics.
-            </p>
-            <button className="glow-button text-lg font-bold mr-4">
-              Download Case Studies
-            </button>
-            <button className="gold-button text-lg font-bold">
-              Schedule Results Call
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
