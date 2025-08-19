@@ -172,7 +172,7 @@ const Booking = () => {
 
               <Button 
                 className="glow-button font-bold w-full text-lg py-4"
-                onClick={() => alert('Form submission would be integrated with your preferred booking system (Calendly, etc.)')}
+                onClick={() => window.open('https://calendly.com/teodorxseya/30min', '_blank')}
               >
                 Book Your Strategy Session
               </Button>
