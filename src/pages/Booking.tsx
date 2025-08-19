@@ -16,10 +16,10 @@ const Booking = () => {
           </Button>
           
           <h1 className="font-heading text-5xl font-bold mb-6">
-            Book Your <span className="luxury-text">Strategy Session</span>
+            Book Your <span className="luxury-text">Discovery Call</span>
           </h1>
           <p className="font-body text-muted-foreground text-xl">
-            Ready to dominate Reddit? Let's discuss your goals and create a custom growth strategy.
+            Let's see if your business is the right fit for Reddit growth. We're selective and only work with brands we know we can scale.
           </p>
         </div>
 
@@ -38,10 +38,10 @@ const Booking = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">
-                      45-Minute Deep Dive
+                      30-Minute Discovery Call
                     </h3>
                     <p className="font-body text-muted-foreground text-sm">
-                      Comprehensive analysis of your brand, target audience, and Reddit growth potential.
+                      We'll analyze your business, present our offers, and determine if you're a good fit for Reddit growth.
                     </p>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Booking = () => {
                       Google Meet Call
                     </h3>
                     <p className="font-body text-muted-foreground text-sm">
-                      Face-to-face strategy session where we dive deep into your Reddit domination plan.
+                      Face-to-face consultation to present our Reddit growth services and see if we're aligned.
                     </p>
                   </div>
                 </div>
@@ -66,10 +66,10 @@ const Booking = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">
-                      Custom Strategy Blueprint
+                      Qualification Process
                     </h3>
                     <p className="font-body text-muted-foreground text-sm">
-                      Receive a tailored Reddit growth strategy with specific subreddit targets and content plans.
+                      We don't work with everyone - only businesses we're confident we can successfully scale on Reddit.
                     </p>
                   </div>
                 </div>
@@ -80,10 +80,10 @@ const Booking = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">
-                      No Commitment Required
+                      No Pressure Discovery
                     </h3>
                     <p className="font-body text-muted-foreground text-sm">
-                      This is a strategy session - no pressure, just valuable insights for your Reddit growth.
+                      A genuine consultation to see if there's mutual fit - no high-pressure sales tactics.
                     </p>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Booking = () => {
           {/* Right Column - Booking Form */}
           <div className="luxury-card p-8">
             <h2 className="font-heading text-3xl font-bold mb-6 text-foreground">
-              Schedule Your Session
+              Schedule Your Discovery Call
             </h2>
             
             <div className="space-y-6">
@@ -174,7 +174,7 @@ const Booking = () => {
                 className="glow-button font-bold w-full text-lg py-4"
                 onClick={() => window.open('https://calendly.com/teodorxseya/30min', '_blank')}
               >
-                Book Your Strategy Session
+                Book Your Discovery Call
               </Button>
 
               <p className="text-center font-body text-muted-foreground text-xs">

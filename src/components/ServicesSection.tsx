@@ -28,7 +28,7 @@ const services = [
   {
     icon: BarChart3,
     title: "Performance Analytics",
-    description: "Comprehensive dashboards tracking ROI, engagement, and conversion metrics.",
+    description: "Comprehensive reporting tracking ROI, engagement, and conversion metrics.",
     features: ["Real-time tracking", "ROI calculation", "Conversion analysis", "Growth projections"]
   },
   {

@@ -1,4 +1,4 @@
-import { ArrowRight, Calendar, MessageCircle, Trophy } from "lucide-react";
+import { ArrowRight, Calendar, MessageCircle, Trophy, ExternalLink } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -64,6 +64,16 @@ const CTASection = () => {
             </button>
           </div>
           
+          {/* Instagram Follow Button */}
+          <div className="mt-8 flex justify-center animate-luxury-fade-in [animation-delay:0.4s]">
+            <button 
+              className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-lg font-heading font-bold text-lg transition-all duration-300 flex items-center"
+              onClick={() => window.open('https://www.instagram.com/teodorxseya?igsh=Y3B1Mzh4MWhhaHE5&utm_source=qr', '_blank')}
+            >
+              Follow on Instagram
+              <ExternalLink className="ml-2 h-5 w-5" />
+            </button>
+          </div>
         </div>
         
         {/* Urgency & Social Proof */}

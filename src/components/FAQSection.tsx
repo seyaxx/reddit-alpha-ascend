@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "What's included in your reporting and analytics?",
-    answer: "You'll receive comprehensive monthly reports including engagement metrics, reach analytics, conversion tracking, ROI calculations, and strategic recommendations. Plus real-time dashboard access to monitor performance 24/7."
+    answer: "You'll receive comprehensive monthly reports including engagement metrics, reach analytics, conversion tracking, ROI calculations, and strategic recommendations for ongoing optimization."
   },
   {
     question: "Can you guarantee specific results like X upvotes or Y conversions?",
