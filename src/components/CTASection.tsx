@@ -36,7 +36,7 @@ const CTASection = () => {
               Get personalized insights about your Reddit potential and see if we're the right fit.
             </p>
             <button 
-              className="glow-button w-full text-lg font-bold py-4"
+              className="glow-button w-full text-lg font-bold py-4 flex items-center justify-center"
               onClick={() => window.location.href = '/booking'}
             >
               Book Discovery Call
@@ -57,7 +57,7 @@ const CTASection = () => {
               Have questions? Get instant answers about our Reddit growth services.
             </p>
             <button 
-              className="gold-button w-full text-lg font-bold py-4"
+              className="gold-button w-full text-lg font-bold py-4 flex items-center justify-center"
               onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
             >
               Start Chat
