@@ -13,15 +13,15 @@ const Footer = () => {
       <div className="relative">
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-2 gap-12">
             
             {/* Brand Column */}
-            <div className="lg:col-span-2">
+            <div>
               <div className="mb-8">
                 <h3 className="font-display text-4xl font-black luxury-text mb-4">
                   REDSEYA
                 </h3>
-                <p className="font-body text-muted-foreground text-lg leading-relaxed max-w-md">
+                <p className="font-body text-muted-foreground text-lg leading-relaxed">
                   Premium organic Reddit growth for brands that refuse to settle for mediocrity. 
                   Authentic engagement. Real results. Unmatched expertise.
                 </p>
@@ -37,11 +37,11 @@ const Footer = () => {
             </div>
             
             {/* Company Column */}
-            <div>
+            <div className="md:pl-12">
               <h4 className="font-heading text-xl font-bold mb-6 text-foreground">
                 Company
               </h4>
-              <ul className="space-y-3">
+              <ul className="space-y-4">
                 {[
                   { label: "About Us", href: "/about" },
                   { label: "FAQ", href: "/faq" },
@@ -50,10 +50,10 @@ const Footer = () => {
                   <li key={link.label}>
                     <a 
                       href={link.href}
-                      className="font-body text-muted-foreground hover:text-accent transition-colors duration-300 flex items-center group"
+                      className="font-body text-muted-foreground hover:text-accent transition-colors duration-300 flex items-center group text-lg"
                     >
                       {link.label}
-                      <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <ExternalLink className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </a>
                   </li>
                 ))}
