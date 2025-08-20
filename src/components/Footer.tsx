@@ -12,30 +12,30 @@ const Footer = () => {
       
       <div className="relative">
         {/* Main Footer Content */}
-        <div className="max-w-5xl mx-auto px-6 py-16">
-          <div className="grid md:grid-cols-2 gap-16 items-start justify-center">
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
             
-            {/* Brand Column */}
-            <div className="text-center md:text-left">
-              <div className="mb-8">
+            {/* Brand Column - Left Side */}
+            <div className="flex-1 max-w-md">
+              <div className="mb-6">
                 <h3 className="font-display text-4xl font-black luxury-text mb-4">
                   REDSEYA
                 </h3>
-                <p className="font-body text-muted-foreground text-lg leading-relaxed mx-auto md:mx-0 max-w-md">
+                <p className="font-body text-muted-foreground text-lg leading-relaxed">
                   Premium organic Reddit growth for brands that refuse to settle for mediocrity. 
                   Authentic engagement. Real results. Unmatched expertise.
                 </p>
               </div>
               
               {/* Contact Info */}
-              <div className="flex items-center justify-center md:justify-start text-muted-foreground">
+              <div className="flex items-center text-muted-foreground">
                 <Mail className="w-5 h-5 text-accent mr-3" />
                 <span className="font-body">hello@redseya.com</span>
               </div>
             </div>
             
-            {/* Company Column */}
-            <div className="text-center md:text-left md:pl-8">
+            {/* Company Column - Right Side */}
+            <div className="flex-shrink-0">
               <h4 className="font-heading text-xl font-bold mb-6 text-foreground">
                 Company
               </h4>
