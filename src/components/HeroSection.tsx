@@ -41,7 +41,8 @@ const HeroSection = () => {
           <p className="text-muted-foreground text-sm mb-4 font-heading font-semibold tracking-wider">
             TRUSTED BY TOP CREATORS
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 text-muted-foreground/60">
+          {/* Desktop Layout */}
+          <div className="hidden md:flex flex-wrap justify-center items-center gap-8 text-muted-foreground/60">
             <div className="text-2xl font-bold">500K+</div>
             <div className="w-px h-8 bg-border"></div>
             <div className="text-2xl font-bold">UPVOTES</div>
@@ -50,13 +51,17 @@ const HeroSection = () => {
             <div className="w-px h-8 bg-border"></div>
             <div className="text-2xl font-bold">REACH</div>
           </div>
-        </div>
-      </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-accent rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-accent rounded-full mt-2 animate-pulse"></div>
+          {/* Mobile Layout */}
+          <div className="md:hidden grid grid-cols-2 gap-4 text-center text-muted-foreground/60 max-w-xs mx-auto">
+            <div className="flex flex-col">
+              <div className="text-xl font-bold">500K+</div>
+              <div className="text-sm font-semibold">UPVOTES</div>
+            </div>
+            <div className="flex flex-col">
+              <div className="text-xl font-bold">10M+</div>
+              <div className="text-sm font-semibold">REACH</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
