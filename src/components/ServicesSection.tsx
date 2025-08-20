@@ -5,37 +5,43 @@ const services = [
     icon: Search,
     title: "Audience Profiling",
     description: "Deep-dive analysis to identify your perfect Reddit communities and audience demographics.",
-    features: ["Competitor analysis", "Subreddit research", "User behavior mapping", "Opportunity identification"]
+    features: ["Competitor analysis", "Subreddit research", "User behavior mapping", "Opportunity identification"],
+    path: "/services/audience-profiling"
   },
   {
     icon: Target,
     title: "Subreddit Strategy",
     description: "Precision-crafted strategies to dominate your niche communities with surgical accuracy.",
-    features: ["Content calendar planning", "Posting optimization", "Community rule compliance", "Timing analysis"]
+    features: ["Content calendar planning", "Posting optimization", "Community rule compliance", "Timing analysis"],
+    path: "/services/subreddit-strategy"
   },
   {
     icon: MessageSquare,
     title: "Content Crafting",
     description: "Native-feeling posts that blend seamlessly into communities while driving brand awareness.",
-    features: ["Value-first content", "Community-specific tone", "Viral potential optimization", "A/B testing"]
+    features: ["Value-first content", "Community-specific tone", "Viral potential optimization", "A/B testing"],
+    path: "/services/content-crafting"
   },
   {
     icon: Users,
     title: "Community Engagement",
     description: "Strategic commenting and community building that establishes authentic brand presence.",
-    features: ["Authentic interactions", "Relationship building", "Trust establishment", "Organic boosting"]
+    features: ["Authentic interactions", "Relationship building", "Trust establishment", "Organic boosting"],
+    path: "/services/community-engagement"
   },
   {
     icon: BarChart3,
     title: "Performance Analytics",
     description: "Comprehensive reporting tracking ROI, engagement, and conversion metrics.",
-    features: ["Real-time tracking", "ROI calculation", "Conversion analysis", "Growth projections"]
+    features: ["Real-time tracking", "ROI calculation", "Conversion analysis", "Growth projections"],
+    path: "/services/performance-analytics"
   },
   {
     icon: Zap,
     title: "Rapid Scaling",
     description: "Accelerated growth protocols for brands ready to dominate multiple communities.",
-    features: ["Multi-subreddit campaigns", "Cross-promotion tactics", "Viral amplification", "Authority building"]
+    features: ["Multi-subreddit campaigns", "Cross-promotion tactics", "Viral amplification", "Authority building"],
+    path: "/services/rapid-scaling"
   }
 ];
 
@@ -63,6 +69,7 @@ const ServicesSection = () => {
               key={service.title}
               className="luxury-card p-8 group cursor-pointer animate-luxury-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
+              onClick={() => window.location.href = service.path}
             >
               {/* Icon Header */}
               <div className="flex items-center mb-6">
