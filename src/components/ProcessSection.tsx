@@ -79,13 +79,15 @@ const ProcessSection = () => {
                   </div>
                   
                   {/* Content Card */}
-                  <div className="luxury-card p-6 w-64 text-center group hover:scale-105 transition-transform duration-300">
-                    <h3 className="font-heading text-xl font-bold mb-3 text-foreground">
-                      {step.title}
-                    </h3>
-                    <p className="font-body text-muted-foreground text-sm mb-4 leading-relaxed">
-                      {step.description}
-                    </p>
+                  <div className="luxury-card p-6 w-64 h-64 text-center group hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-heading text-xl font-bold mb-3 text-foreground">
+                        {step.title}
+                      </h3>
+                      <p className="font-body text-muted-foreground text-sm mb-4 leading-relaxed">
+                        {step.description}
+                      </p>
+                    </div>
                     <ul className="space-y-1 text-xs text-muted-foreground/80">
                       {step.details.map((detail, idx) => (
                         <li key={idx} className="flex items-center justify-center">

@@ -36,20 +36,23 @@ const stats = [
 const testimonials = [
   {
     quote: "REDSEYA transformed our Reddit presence from zero to dominant. We went from invisible to industry leader in 90 days.",
-    author: "Mr. ████████",
-    title: "VetioAI Owner, CEO",
+    author: "👤",
+    title: "Private Name",
+    company: "VetioAI Owner, CEO",
     result: "2.3M organic reach in Q1"
   },
   {
     quote: "The level of strategic thinking and execution is unmatched. They don't just post content - they build communities.",
-    author: "J. ░░░░░░", 
-    title: "e-creativeagency CEO",
+    author: "🕴️", 
+    title: "Private Name",
+    company: "e-creativeagency CEO",
     result: "400% increase in qualified leads"
   },
   {
     quote: "Finally, a team that understands Reddit culture while delivering business results. Game-changing partnership.",
-    author: "◼◼◼ K.",
-    title: "FlixBuddy CEO",
+    author: "👥",
+    title: "Private Name",
+    company: "FlixBuddy CEO",
     result: "$150K+ in attributed revenue"
   }
 ];
@@ -153,16 +156,16 @@ const ResultsSection = () => {
                 <div className="border-t border-border/20 pt-6">
                   <div className="flex items-center mb-3">
                     <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mr-4 shadow-red-glow">
-                      <span className="text-primary-foreground font-bold text-lg">
-                        {testimonial.author.split(' ').map(n => n[0]).join('')}
+                      <span className="text-2xl">
+                        {testimonial.author}
                       </span>
                     </div>
                     <div>
                       <div className="font-heading font-bold text-foreground">
-                        {testimonial.author}
+                        {testimonial.title}
                       </div>
                       <div className="font-body text-muted-foreground text-sm">
-                        {testimonial.title}
+                        {testimonial.company}
                       </div>
                     </div>
                   </div>
