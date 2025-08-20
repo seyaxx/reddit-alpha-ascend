@@ -1,5 +1,6 @@
 import { TrendingUp, Users, DollarSign, Eye } from "lucide-react";
 import { useState, useEffect } from "react";
+import CompanyBar from "./CompanyBar";
 
 const stats = [
   {
@@ -179,6 +180,9 @@ const ResultsSection = () => {
         </div>
         
       </div>
+      
+      {/* Company Bar */}
+      <CompanyBar />
     </section>
   );
 };

@@ -27,19 +27,19 @@ const CTASection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16 animate-luxury-slide-in [animation-delay:0.3s]">
           
           {/* Primary CTA */}
-          <div className="luxury-card p-8 border-2 border-primary/30 relative group">
+          <div className="luxury-card p-8 border-2 border-primary/30 relative group h-80 flex flex-col">
             <div className="absolute inset-0 bg-gradient-primary opacity-5 rounded-lg group-hover:opacity-10 transition-opacity duration-300"></div>
             
             <Calendar className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="font-heading text-xl font-bold mb-4">Strategy Session</h3>
-            <p className="text-muted-foreground mb-6 text-sm">
-              Get a custom Reddit growth plan tailored to your brand and objectives.
+            <h3 className="font-heading text-xl font-bold mb-4">Discovery Call</h3>
+            <p className="text-muted-foreground mb-6 text-sm flex-1">
+              Get personalized insights about your Reddit potential and see if we're the right fit.
             </p>
             <button 
-              className="glow-button w-full text-lg font-bold"
+              className="glow-button w-full text-lg font-bold py-4"
               onClick={() => window.location.href = '/booking'}
             >
-              Book Free Call
+              Book Discovery Call
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>
             
@@ -50,24 +50,29 @@ const CTASection = () => {
           </div>
           
           {/* Secondary CTA */}
-          <div className="luxury-card p-8 group">
+          <div className="luxury-card p-8 group h-80 flex flex-col">
             <MessageCircle className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="font-heading text-xl font-bold mb-4">Quick Chat</h3>
-            <p className="text-muted-foreground mb-6 text-sm">
+            <p className="text-muted-foreground mb-6 text-sm flex-1">
               Have questions? Get instant answers about our Reddit growth services.
             </p>
             <button 
-              className="gold-button w-full text-lg font-bold"
+              className="gold-button w-full text-lg font-bold py-4"
               onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
             >
               Start Chat
             </button>
           </div>
           
-          {/* Instagram Follow Button */}
-          <div className="mt-8 flex justify-center animate-luxury-fade-in [animation-delay:0.4s]">
+          {/* Instagram Follow */}
+          <div className="luxury-card p-8 group h-80 flex flex-col">
+            <ExternalLink className="w-12 h-12 text-accent mx-auto mb-4" />
+            <h3 className="font-heading text-xl font-bold mb-4">Follow Journey</h3>
+            <p className="text-muted-foreground mb-6 text-sm flex-1">
+              Get behind-the-scenes content and exclusive Reddit growth tips.
+            </p>
             <button 
-              className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-lg font-heading font-bold text-lg transition-all duration-300 flex items-center"
+              className="gold-button w-full text-lg font-bold py-4 flex items-center justify-center"
               onClick={() => window.open('https://www.instagram.com/teodorxseya?igsh=Y3B1Mzh4MWhhaHE5&utm_source=qr', '_blank')}
             >
               Follow on Instagram
