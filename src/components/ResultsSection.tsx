@@ -36,19 +36,19 @@ const stats = [
 const testimonials = [
   {
     quote: "REDSEYA transformed our Reddit presence from zero to dominant. We went from invisible to industry leader in 90 days.",
-    author: "Name not public",
+    author: "Mr. ████████",
     title: "VetioAI Owner, CEO",
     result: "2.3M organic reach in Q1"
   },
   {
     quote: "The level of strategic thinking and execution is unmatched. They don't just post content - they build communities.",
-    author: "Name not public", 
+    author: "J. ░░░░░░", 
     title: "e-creativeagency CEO",
     result: "400% increase in qualified leads"
   },
   {
     quote: "Finally, a team that understands Reddit culture while delivering business results. Game-changing partnership.",
-    author: "Name not public",
+    author: "◼◼◼ K.",
     title: "FlixBuddy CEO",
     result: "$150K+ in attributed revenue"
   }
