@@ -37,10 +37,9 @@ const CompanyBar = () => {
         {/* Moving text strip with crazy effects */}
         <div className="relative">
           <div className="flex animate-scroll whitespace-nowrap">
-            {/* Companies for seamless loop */}
             {companies.map((company, index) => (
               <div 
-                key={`second-${index}`}
+                key={`company-${index}`}
                 className="flex items-center mx-12 min-w-max relative group"
               >
                 {/* Background glow */}
