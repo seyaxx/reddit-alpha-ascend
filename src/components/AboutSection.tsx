@@ -46,20 +46,30 @@ const AboutSection = () => {
           {/* Left: Founder Avatar & Story */}
           <div className="animate-luxury-slide-in">
             <div className="relative mb-8">
-              {/* Stylized Avatar Placeholder */}
-              <div className="w-64 h-80 bg-gradient-primary rounded-2xl mx-auto shadow-luxury relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-primary-foreground">
-                    {/* Avatar Representation */}
-                    <div className="w-32 h-32 bg-accent/20 rounded-full mx-auto mb-4 flex items-center justify-center border-4 border-accent/30">
-                      <div className="text-6xl">👤</div>
+              {/* Founder Image with Fire Aura */}
+              <div className="relative w-64 h-80 mx-auto">
+                {/* Fire Aura Animation */}
+                <div className="absolute inset-0 rounded-2xl animate-fire-aura"></div>
+                <div className="absolute inset-0 rounded-2xl animate-fire-aura-alt"></div>
+                
+                {/* Main Image Container */}
+                <div className="relative w-full h-full bg-gradient-primary rounded-2xl shadow-luxury overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/76a23448-be11-4b32-81f7-e52c590a7f91.png"
+                    alt="REDSEYA Founder"
+                    className="w-full h-full object-cover"
+                  />
+                  
+                  {/* Overlay Glow Effect */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+                  
+                  {/* Founder Label */}
+                  <div className="absolute bottom-4 left-0 right-0 text-center">
+                    <div className="font-heading text-sm font-bold text-primary-foreground opacity-90 bg-black/40 backdrop-blur-sm rounded px-3 py-1 inline-block">
+                      REDSEYA FOUNDER
                     </div>
-                    <div className="font-heading text-sm font-bold opacity-80">REDSEYA FOUNDER</div>
                   </div>
                 </div>
-                
-                {/* Glow Effect */}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
               </div>
             </div>
             
