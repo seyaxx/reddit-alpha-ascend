@@ -8,7 +8,7 @@ const achievements = [
   },
   {
     icon: Target,
-    title: "200+ Successful Campaigns", 
+    title: "500K+ Successful Posts", 
     description: "Proven track record of dominating niche communities organically"
   },
   {
@@ -23,8 +23,8 @@ const achievements = [
   },
   {
     icon: Shield,
-    title: "100% Compliance Rate",
-    description: "Zero account bans or penalties using our proven safe methods"
+    title: "Expert Risk Management",
+    description: "Strategic approach minimizing penalties using proven safe methods"
   },
   {
     icon: Zap,
