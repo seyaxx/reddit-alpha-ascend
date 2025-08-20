@@ -37,27 +37,7 @@ const CompanyBar = () => {
         {/* Moving text strip with crazy effects */}
         <div className="relative">
           <div className="flex animate-scroll whitespace-nowrap">
-            {/* First set of companies */}
-            {companies.map((company, index) => (
-              <div 
-                key={`first-${index}`}
-                className="flex items-center mx-12 min-w-max relative group"
-              >
-                {/* Background glow */}
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/30 to-primary/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 scale-150"></div>
-                
-                {/* Text with multiple effects */}
-                <span className="relative font-heading text-4xl font-black bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent hover:from-secondary hover:via-primary hover:to-secondary transition-all duration-700 transform hover:scale-110 hover:rotate-1 filter drop-shadow-lg">
-                  {company}
-                </span>
-                
-                {/* Sparkle effects */}
-                <div className="absolute -top-2 -right-2 w-3 h-3 bg-secondary rounded-full animate-ping opacity-60"></div>
-                <div className="absolute -bottom-2 -left-2 w-2 h-2 bg-primary rounded-full animate-ping delay-300 opacity-40"></div>
-              </div>
-            ))}
-            
-            {/* Duplicate set for seamless loop */}
+            {/* Companies for seamless loop */}
             {companies.map((company, index) => (
               <div 
                 key={`second-${index}`}
