@@ -43,14 +43,14 @@ const testimonials = [
   },
   {
     quote: "The level of strategic thinking and execution is unmatched. They don't just post content - they build communities.",
-    author: "🕴️", 
+    author: "👤", 
     title: "Private Name",
     company: "e-creativeagency CEO",
     result: "400% increase in qualified leads"
   },
   {
     quote: "Finally, a team that understands Reddit culture while delivering business results. Game-changing partnership.",
-    author: "👥",
+    author: "👤",
     title: "Private Name",
     company: "FlixBuddy CEO",
     result: "$150K+ in attributed revenue"
@@ -141,7 +141,7 @@ const ResultsSection = () => {
             {testimonials.map((testimonial, index) => (
               <div 
                 key={testimonial.author}
-                className="luxury-card p-8 animate-luxury-slide-in"
+                className="luxury-card p-8 h-96 flex flex-col justify-between animate-luxury-slide-in"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Quote */}
