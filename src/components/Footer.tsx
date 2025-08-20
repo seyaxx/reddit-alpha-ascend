@@ -12,32 +12,30 @@ const Footer = () => {
       
       <div className="relative">
         {/* Main Footer Content */}
-        <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid md:grid-cols-2 gap-12">
+        <div className="max-w-5xl mx-auto px-6 py-16">
+          <div className="grid md:grid-cols-2 gap-16 items-start justify-center">
             
             {/* Brand Column */}
-            <div>
+            <div className="text-center md:text-left">
               <div className="mb-8">
                 <h3 className="font-display text-4xl font-black luxury-text mb-4">
                   REDSEYA
                 </h3>
-                <p className="font-body text-muted-foreground text-lg leading-relaxed">
+                <p className="font-body text-muted-foreground text-lg leading-relaxed mx-auto md:mx-0 max-w-md">
                   Premium organic Reddit growth for brands that refuse to settle for mediocrity. 
                   Authentic engagement. Real results. Unmatched expertise.
                 </p>
               </div>
               
               {/* Contact Info */}
-              <div className="space-y-4">
-                <div className="flex items-center text-muted-foreground">
-                  <Mail className="w-5 h-5 text-accent mr-3" />
-                  <span className="font-body">hello@redseya.com</span>
-                </div>
+              <div className="flex items-center justify-center md:justify-start text-muted-foreground">
+                <Mail className="w-5 h-5 text-accent mr-3" />
+                <span className="font-body">hello@redseya.com</span>
               </div>
             </div>
             
             {/* Company Column */}
-            <div className="md:pl-12">
+            <div className="text-center md:text-left md:pl-8">
               <h4 className="font-heading text-xl font-bold mb-6 text-foreground">
                 Company
               </h4>
@@ -50,7 +48,7 @@ const Footer = () => {
                   <li key={link.label}>
                     <a 
                       href={link.href}
-                      className="font-body text-muted-foreground hover:text-accent transition-colors duration-300 flex items-center group text-lg"
+                      className="font-body text-muted-foreground hover:text-accent transition-colors duration-300 inline-flex items-center group text-lg"
                     >
                       {link.label}
                       <ExternalLink className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
