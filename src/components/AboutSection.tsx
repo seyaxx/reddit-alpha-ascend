@@ -47,7 +47,7 @@ const AboutSection = () => {
           <div className="animate-luxury-slide-in">
             <div className="relative mb-8">
               {/* Founder Image with Fire Aura */}
-              <div className="relative w-64 h-80 mx-auto">
+              <div className="relative w-72 h-96 mx-auto">
                 {/* Fire Aura Animation */}
                 <div className="absolute inset-0 rounded-2xl animate-fire-aura"></div>
                 <div className="absolute inset-0 rounded-2xl animate-fire-aura-alt"></div>
@@ -55,17 +55,17 @@ const AboutSection = () => {
                 {/* Main Image Container */}
                 <div className="relative w-full h-full bg-gradient-primary rounded-2xl shadow-luxury overflow-hidden">
                   <img 
-                    src="/lovable-uploads/76a23448-be11-4b32-81f7-e52c590a7f91.png"
+                    src="/lovable-uploads/90bad0b7-a36c-4b65-8678-4f2c41eafa5a.png"
                     alt="REDSEYA Founder"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                   
-                  {/* Overlay Glow Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+                  {/* Subtle overlay for better text contrast */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   
                   {/* Founder Label */}
-                  <div className="absolute bottom-4 left-0 right-0 text-center">
-                    <div className="font-heading text-sm font-bold text-primary-foreground opacity-90 bg-black/40 backdrop-blur-sm rounded px-3 py-1 inline-block">
+                  <div className="absolute bottom-6 left-0 right-0 text-center">
+                    <div className="font-heading text-sm font-bold text-white bg-black/60 backdrop-blur-sm rounded-lg px-4 py-2 inline-block border border-primary/30">
                       REDSEYA FOUNDER
                     </div>
                   </div>
