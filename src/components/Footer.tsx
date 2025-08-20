@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="relative">
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             
             {/* Brand Column */}
             <div className="lg:col-span-2">
@@ -34,33 +34,6 @@ const Footer = () => {
                   <span className="font-body">hello@redseya.com</span>
                 </div>
               </div>
-            </div>
-            
-            {/* Services Column */}
-            <div>
-              <h4 className="font-heading text-xl font-bold mb-6 text-foreground">
-                Services
-              </h4>
-              <ul className="space-y-3">
-                {[
-                  "Audience Profiling",
-                  "Subreddit Strategy", 
-                  "Content Crafting",
-                  "Community Engagement",
-                  "Performance Analytics",
-                  "Rapid Scaling"
-                ].map((service) => (
-                  <li key={service}>
-                    <a 
-                      href="#services" 
-                      className="font-body text-muted-foreground hover:text-accent transition-colors duration-300 flex items-center group"
-                    >
-                      {service}
-                      <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    </a>
-                  </li>
-                ))}
-              </ul>
             </div>
             
             {/* Company Column */}
