@@ -28,7 +28,7 @@ const CTASection = () => {
           
           {/* Primary CTA */}
           <div className="luxury-card p-8 border-2 border-primary/30 relative group h-80 flex flex-col">
-            <div className="absolute inset-0 bg-gradient-primary opacity-5 rounded-lg group-hover:opacity-10 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-primary opacity-5 rounded-lg group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"></div>
             
             <Calendar className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="font-heading text-xl font-bold mb-4">Discovery Call</h3>
