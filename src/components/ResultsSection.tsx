@@ -137,43 +137,47 @@ const ResultsSection = () => {
             What <span className="luxury-text">Industry Leaders</span> Say
           </h3>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {testimonials.map((testimonial, index) => (
               <div 
-                key={testimonial.author}
-                className="luxury-card p-8 h-96 flex flex-col justify-between animate-luxury-slide-in"
+                key={index}
+                className="luxury-card p-6 md:p-8 h-auto md:h-[32rem] flex flex-col animate-luxury-slide-in"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Quote */}
-                <div className="mb-6">
-                  <div className="text-4xl text-accent mb-4 font-display">"</div>
-                  <p className="font-body text-muted-foreground italic leading-relaxed">
-                    {testimonial.quote}
-                  </p>
+                <div className="flex-1 flex flex-col">
+                  <div className="text-3xl md:text-4xl text-accent mb-3 md:mb-4 font-display leading-none">"</div>
+                  <div className="flex-1 flex items-start mb-6 md:mb-0">
+                    <p className="font-body text-muted-foreground italic leading-relaxed text-base md:text-lg">
+                      {testimonial.quote}
+                    </p>
+                  </div>
                 </div>
                 
-                {/* Author */}
-                <div className="border-t border-border/20 pt-6">
-                  <div className="flex items-center mb-3">
-                    <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mr-4 shadow-red-glow">
-                      <span className="text-2xl">
+                {/* Author - Fixed at bottom */}
+                <div className="border-t border-border/20 pt-4 md:pt-6 mt-6 md:mt-8">
+                  <div className="flex items-center mb-3 md:mb-4 min-h-[3rem] md:h-12">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-primary rounded-full flex items-center justify-center mr-3 md:mr-4 shadow-red-glow flex-shrink-0">
+                      <span className="text-xl md:text-2xl leading-none">
                         {testimonial.author}
                       </span>
                     </div>
-                    <div>
-                      <div className="font-heading font-bold text-foreground">
+                    <div className="flex-1 min-w-0">
+                      <div className="font-heading font-bold text-foreground leading-tight text-sm md:text-base">
                         {testimonial.title}
                       </div>
-                      <div className="font-body text-muted-foreground text-sm">
+                      <div className="font-body text-muted-foreground text-xs md:text-sm leading-tight">
                         {testimonial.company}
                       </div>
                     </div>
                   </div>
                   
-                  {/* Result */}
-                  <div className="bg-muted/30 rounded-lg p-3 border border-border/10">
-                    <div className="text-accent font-heading font-bold text-sm">
-                      RESULT: {testimonial.result}
+                  {/* Result - Fixed height */}
+                  <div className="bg-gradient-primary/10 rounded-lg p-3 md:p-4 border border-primary/20 min-h-[3rem] md:h-16 flex items-center">
+                    <div className="w-full">
+                      <div className="text-accent font-heading font-bold text-xs md:text-sm uppercase tracking-wide">
+                        RESULT: {testimonial.result}
+                      </div>
                     </div>
                   </div>
                 </div>

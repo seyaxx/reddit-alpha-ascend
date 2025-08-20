@@ -40,16 +40,16 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section className="py-24 px-6 bg-gradient-dark relative">
+    <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-dark relative">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-red-glow opacity-10"></div>
       
       <div className="max-w-7xl mx-auto relative">
-        <div className="text-center mb-20">
-          <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6">
+        <div className="text-center mb-12 md:mb-20">
+          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">
             Our <span className="luxury-text">Process</span>
           </h2>
-          <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
             A systematic approach to Reddit domination that has generated millions of organic impressions 
             and thousands of high-value conversions for our clients.
           </p>
