@@ -1,4 +1,4 @@
-import { ArrowUp, Mail, MessageCircle, Instagram, Radio, ExternalLink } from "lucide-react";
+import { ArrowUp, Mail, Send, Instagram, Radio, ExternalLink } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -87,7 +87,7 @@ const Footer = () => {
                     className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
                     aria-label="Telegram"
                   >
-                    <MessageCircle className="w-5 h-5" />
+                    <Send className="w-5 h-5" />
                   </a>
                   <a
                     href="https://www.instagram.com/teodorxseya?igsh=Y3B1Mzh4MWhhaHE5&utm_source=qr"
