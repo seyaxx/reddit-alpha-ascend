@@ -53,36 +53,36 @@ const ServicesSection = () => {
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative">
-        <div className="text-center mb-20">
-          <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6">
+        <div className="text-center mb-16 sm:mb-20">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-6xl font-bold mb-6">
             <span className="luxury-text">Premium</span> Services
           </h2>
-          <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Comprehensive Reddit growth solutions designed for serious brands 
             who demand measurable results and authentic engagement.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <div 
               key={service.title}
-              className="luxury-card p-8 group cursor-pointer animate-luxury-fade-in"
+              className="luxury-card p-6 sm:p-8 group cursor-pointer animate-luxury-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
               onClick={() => window.location.href = service.path}
             >
               {/* Icon Header */}
               <div className="flex items-center mb-6">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-primary rounded-xl mr-4 shadow-red-glow group-hover:scale-110 transition-transform duration-300">
-                  <service.icon className="w-7 h-7 text-primary-foreground" />
+                <div className="inline-flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 bg-gradient-primary rounded-xl mr-3 sm:mr-4 shadow-red-glow group-hover:scale-110 transition-transform duration-300">
+                  <service.icon className="w-6 sm:w-7 h-6 sm:h-7 text-primary-foreground" />
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-foreground">
+                <h3 className="font-heading text-lg sm:text-xl lg:text-2xl font-bold text-foreground leading-tight">
                   {service.title}
                 </h3>
               </div>
               
               {/* Description */}
-              <p className="font-body text-muted-foreground mb-6 text-lg leading-relaxed">
+              <p className="font-body text-muted-foreground mb-6 text-base sm:text-lg leading-relaxed">
                 {service.description}
               </p>
               
@@ -103,16 +103,16 @@ const ServicesSection = () => {
         </div>
         
         {/* Bottom CTA */}
-        <div className="text-center mt-20">
-          <div className="luxury-card p-12 max-w-4xl mx-auto">
-            <h3 className="font-heading text-3xl font-bold mb-4">
+        <div className="text-center mt-16 sm:mt-20">
+          <div className="luxury-card p-8 sm:p-12 max-w-4xl mx-auto">
+            <h3 className="font-heading text-2xl sm:text-3xl font-bold mb-4">
               Ready to <span className="luxury-text">Dominate</span> Your Niche?
             </h3>
-            <p className="font-body text-muted-foreground mb-8 text-lg">
+            <p className="font-body text-muted-foreground mb-8 text-base sm:text-lg leading-relaxed">
               Get a custom Reddit growth strategy tailored specifically to your brand and objectives.
             </p>
             <button 
-              className="glow-button text-lg font-bold"
+              className="glow-button text-base sm:text-lg font-bold px-6 sm:px-8 py-3 sm:py-4"
               onClick={() => window.location.href = '/booking'}
             >
               Get Your Custom Strategy

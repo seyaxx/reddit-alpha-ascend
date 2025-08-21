@@ -11,23 +11,23 @@ const CTASection = () => {
       <div className="max-w-6xl mx-auto text-center relative">
         {/* Main CTA Content */}
         <div className="animate-luxury-fade-in">
-          <h2 className="font-display text-6xl md:text-8xl font-black mb-8">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-8xl font-black mb-8">
             Ready to <span className="luxury-text">DOMINATE</span>
             <br />
             <span className="text-foreground">Reddit?</span>
           </h2>
           
-          <p className="font-body text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
+          <p className="font-body text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
             Stop watching competitors steal your audience. 
             Start building the Reddit presence that transforms your brand into an industry authority.
           </p>
         </div>
         
         {/* CTA Options Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16 animate-luxury-slide-in [animation-delay:0.3s]">
+        <div className="grid md:grid-cols-3 gap-6 sm:gap-8 mb-16 animate-luxury-slide-in [animation-delay:0.3s]">
           
           {/* Primary CTA */}
-          <div className="luxury-card p-8 border-2 border-primary/30 relative group h-80 flex flex-col">
+          <div className="luxury-card p-6 sm:p-8 border-2 border-primary/30 relative group h-auto sm:h-80 flex flex-col">
             <div className="absolute inset-0 bg-gradient-primary opacity-5 rounded-lg group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"></div>
             
             <Calendar className="w-12 h-12 text-primary mx-auto mb-4" />
@@ -50,14 +50,14 @@ const CTASection = () => {
           </div>
           
           {/* Secondary CTA */}
-          <div className="luxury-card p-8 group h-80 flex flex-col">
-            <MessageCircle className="w-12 h-12 text-accent mx-auto mb-4" />
-            <h3 className="font-heading text-xl font-bold mb-4">Quick Chat</h3>
+          <div className="luxury-card p-6 sm:p-8 group h-auto sm:h-80 flex flex-col">
+            <MessageCircle className="w-10 sm:w-12 h-10 sm:h-12 text-accent mx-auto mb-4" />
+            <h3 className="font-heading text-lg sm:text-xl font-bold mb-4">Quick Chat</h3>
             <p className="text-muted-foreground mb-6 text-sm flex-1">
               Have questions? Get instant answers about our Reddit growth services.
             </p>
             <button 
-              className="gold-button w-full text-lg font-bold py-4 flex items-center justify-center"
+              className="gold-button w-full text-base sm:text-lg font-bold py-3 sm:py-4 flex items-center justify-center"
               onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
             >
               Start Chat
@@ -65,43 +65,44 @@ const CTASection = () => {
           </div>
           
           {/* Instagram Follow */}
-          <div className="luxury-card p-8 group h-80 flex flex-col">
-            <ExternalLink className="w-12 h-12 text-accent mx-auto mb-4" />
-            <h3 className="font-heading text-xl font-bold mb-4">Follow Journey</h3>
+          <div className="luxury-card p-6 sm:p-8 group h-auto sm:h-80 flex flex-col">
+            <ExternalLink className="w-10 sm:w-12 h-10 sm:h-12 text-accent mx-auto mb-4" />
+            <h3 className="font-heading text-lg sm:text-xl font-bold mb-4">Follow Journey</h3>
             <p className="text-muted-foreground mb-6 text-sm flex-1">
               Get behind-the-scenes content and exclusive Reddit growth tips.
             </p>
             <button 
-              className="gold-button w-full text-lg font-bold py-4 flex items-center justify-center"
+              className="gold-button w-full text-base sm:text-lg font-bold py-3 sm:py-4 flex items-center justify-center"
               onClick={() => window.open('https://www.instagram.com/teodorxseya?igsh=Y3B1Mzh4MWhhaHE5&utm_source=qr', '_blank')}
             >
-              Follow on Instagram
-              <ExternalLink className="ml-2 h-5 w-5" />
+              <span className="hidden sm:inline">Follow on Instagram</span>
+              <span className="sm:hidden">Follow Journey</span>
+              <ExternalLink className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </button>
           </div>
         </div>
         
         {/* Urgency & Social Proof */}
         <div className="animate-luxury-fade-in [animation-delay:0.6s]">
-          <div className="luxury-card p-8 max-w-4xl mx-auto bg-gradient-to-r from-card to-muted/30">
-            <div className="grid md:grid-cols-3 gap-8 items-center">
+          <div className="luxury-card p-6 sm:p-8 max-w-4xl mx-auto bg-gradient-to-r from-card to-muted/30">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 items-center">
               
               <div className="text-center">
-                <div className="text-3xl font-display font-black luxury-text mb-2">Limited</div>
+                <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-2">Limited</div>
                 <div className="text-muted-foreground text-sm">
                   Only 5 new clients per month to ensure quality
                 </div>
               </div>
               
-              <div className="text-center border-l border-r border-border/20 md:px-8">
-                <div className="text-3xl font-display font-black luxury-text mb-2">Fast</div>
+              <div className="text-center sm:border-l sm:border-r border-border/20 sm:px-8">
+                <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-2">Fast</div>
                 <div className="text-muted-foreground text-sm">
                   See results within 30 days
                 </div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-display font-black luxury-text mb-2">Proven</div>
+                <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-2">Proven</div>
                 <div className="text-muted-foreground text-sm">
                   500K+ upvotes generated for satisfied clients
                 </div>

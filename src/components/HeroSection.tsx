@@ -11,15 +11,15 @@ const HeroSection = () => {
       
       {/* Main Hero Content */}
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
-        <h1 className="font-display text-7xl md:text-9xl font-black mb-6 animate-luxury-fade-in">
+        <h1 className="font-display text-4xl sm:text-6xl md:text-9xl font-black mb-6 animate-luxury-fade-in">
           <span className="luxury-text">DOMINATE</span>
           <br />
           <span className="text-foreground">REDDIT</span>
           <br />
-          <span className="text-muted-foreground font-heading text-4xl md:text-6xl font-bold">— Organically.</span>
+          <span className="text-muted-foreground font-heading text-2xl sm:text-4xl md:text-6xl font-bold">— Organically.</span>
         </h1>
         
-        <p className="font-body text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-luxury-fade-in [animation-delay:0.3s]">
+        <p className="font-body text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed">
           Next-level Reddit growth for <span className="text-accent font-semibold">influencers</span>, 
           <span className="text-accent font-semibold"> agencies</span>, and 
           <span className="text-accent font-semibold"> AI brands</span>.
