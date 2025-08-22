@@ -1,13 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import redditDominationBg from "@/assets/reddit-domination-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 bg-gradient-red-glow opacity-20 animate-pulse"></div>
-      <div className="absolute top-20 left-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-pulse"></div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* AI-Generated Video Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-pulse"
+        style={{ backgroundImage: `url(${redditDominationBg})` }}
+      ></div>
+      
+      {/* Dark Gradient Overlay for Text Readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+      
+      {/* Animated Energy Effects */}
+      <div className="absolute inset-0 bg-gradient-red-glow opacity-10 animate-pulse [animation-duration:3s]"></div>
+      <div className="absolute top-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse [animation-duration:4s]"></div>
+      <div className="absolute bottom-20 right-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl animate-pulse [animation-duration:5s]"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl animate-pulse [animation-duration:6s]"></div>
       
       {/* Main Hero Content */}
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
