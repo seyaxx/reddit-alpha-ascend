@@ -10,7 +10,7 @@ const achievements = [
     icon: Target,
     title: "500K+ Successful Posts", 
     description: "Proven track record of dominating niche communities organically"
-  },
+  },/* Linting */
   {
     icon: TrendingUp,
     title: "10M+ Organic Impressions",
