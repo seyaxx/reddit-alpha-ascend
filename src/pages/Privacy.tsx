@@ -87,7 +87,7 @@ const Privacy = () => {
             </h2>
             <p className="font-body text-muted-foreground leading-relaxed">
               If you have any questions about this Privacy Policy, please contact us at 
-              hello@redseya.com or through our Telegram channel.
+              teodorxseya@gmail.com or through our Telegram channel.
             </p>
           </div>
 

@@ -30,7 +30,7 @@ const Footer = () => {
               {/* Contact Info */}
               <div className="flex items-center text-muted-foreground">
                 <Mail className="w-5 h-5 text-accent mr-3" />
-                <span className="font-body">hello@redseya.com</span>
+                <span className="font-body">teodorxseya@gmail.com</span>
               </div>
             </div>
             
