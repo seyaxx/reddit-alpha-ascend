@@ -215,6 +215,31 @@
     transform: translateY(-8px);
   }
 
+  /* Mobile-specific utilities */
+  .mobile-hero-text {
+    @apply text-5xl sm:text-6xl lg:text-8xl xl:text-9xl;
+  }
+
+  .mobile-section-padding {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  .mobile-card-padding {
+    @apply p-4 sm:p-6 md:p-8;
+  }
+
+  .mobile-text-responsive {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+
+  .mobile-grid-responsive {
+    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+
+  .mobile-blur-reduced {
+    @apply blur-xl md:blur-3xl;
+  }
+
   .glow-button {
     @apply bg-gradient-to-r from-primary to-primary-glow text-primary-foreground font-bold px-8 py-4 rounded-full;
     box-shadow: var(--shadow-red-glow);

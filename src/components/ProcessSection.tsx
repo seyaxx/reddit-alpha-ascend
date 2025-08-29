@@ -40,16 +40,16 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-dark relative">
+    <section className="mobile-section-padding px-4 sm:px-6 bg-gradient-dark relative">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-red-glow opacity-10"></div>
       
       <div className="max-w-7xl mx-auto relative">
-        <div className="text-center mb-12 md:mb-20">
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 md:mb-6">
             Our <span className="luxury-text">Process</span>
           </h2>
-          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
+          <p className="font-body mobile-text-responsive text-muted-foreground max-w-3xl mx-auto px-2 sm:px-4">
             A systematic approach to Reddit domination that has generated millions of organic impressions 
             and thousands of high-value conversions for our clients.
           </p>
@@ -104,39 +104,39 @@ const ProcessSection = () => {
         </div>
         
         {/* Mobile Timeline */}
-        <div className="lg:hidden space-y-8">
+        <div className="lg:hidden space-y-6 sm:space-y-8">
           {steps.map((step, index) => (
             <div 
               key={step.number}
-              className="flex items-start space-x-6 animate-luxury-slide-in"
+              className="flex items-start space-x-4 sm:space-x-6 animate-luxury-slide-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Step Circle with Line */}
-              <div className="flex flex-col items-center">
-                <div className="relative w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center shadow-red-glow">
-                  <step.icon className="w-6 h-6 text-primary-foreground" />
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-accent rounded-full flex items-center justify-center text-accent-foreground font-bold text-xs">
+              <div className="flex flex-col items-center flex-shrink-0">
+                <div className="relative w-12 sm:w-16 h-12 sm:h-16 bg-gradient-primary rounded-full flex items-center justify-center shadow-red-glow">
+                  <step.icon className="w-5 sm:w-6 h-5 sm:h-6 text-primary-foreground" />
+                  <div className="absolute -top-1 sm:-top-2 -right-1 sm:-right-2 w-5 sm:w-6 h-5 sm:h-6 bg-accent rounded-full flex items-center justify-center text-accent-foreground font-bold text-xs">
                     {step.number}
                   </div>
                 </div>
                 {index < steps.length - 1 && (
-                  <div className="w-0.5 h-16 bg-gradient-to-b from-primary to-accent mt-4"></div>
+                  <div className="w-0.5 h-12 sm:h-16 bg-gradient-to-b from-primary to-accent mt-3 sm:mt-4"></div>
                 )}
               </div>
               
               {/* Content */}
-              <div className="luxury-card p-6 flex-1">
-                <h3 className="font-heading text-2xl font-bold mb-3 text-foreground">
+              <div className="luxury-card mobile-card-padding flex-1">
+                <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3 text-foreground">
                   {step.title}
                 </h3>
-                <p className="font-body text-muted-foreground mb-4 leading-relaxed">
+                <p className="font-body text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4 leading-relaxed">
                   {step.description}
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5 sm:gap-2">
                   {step.details.map((detail, idx) => (
                     <span 
                       key={idx}
-                      className="px-3 py-1 bg-muted rounded-full text-xs text-muted-foreground border border-border/20"
+                      className="px-2 sm:px-3 py-0.5 sm:py-1 bg-muted rounded-full text-xs text-muted-foreground border border-border/20"
                     >
                       {detail}
                     </span>
@@ -148,22 +148,22 @@ const ProcessSection = () => {
         </div>
         
         {/* Timeline Stats */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-          <div className="luxury-card p-6">
-            <div className="text-3xl font-display font-black luxury-text mb-2">7-14</div>
-            <div className="font-heading text-sm font-semibold text-muted-foreground">Days to Launch</div>
+        <div className="mt-12 sm:mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center">
+          <div className="luxury-card mobile-card-padding">
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">7-14</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days to Launch</div>
           </div>
-          <div className="luxury-card p-6">
-            <div className="text-3xl font-display font-black luxury-text mb-2">30-90</div>
-            <div className="font-heading text-sm font-semibold text-muted-foreground">Days to Results</div>
+          <div className="luxury-card mobile-card-padding">
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">30-90</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days to Results</div>
           </div>
-          <div className="luxury-card p-6">
-            <div className="text-3xl font-display font-black luxury-text mb-2">24/7</div>
-            <div className="font-heading text-sm font-semibold text-muted-foreground">Monitoring</div>
+          <div className="luxury-card mobile-card-padding">
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">24/7</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Monitoring</div>
           </div>
-          <div className="luxury-card p-6">
-            <div className="text-3xl font-display font-black luxury-text mb-2">∞</div>
-            <div className="font-heading text-sm font-semibold text-muted-foreground">Scaling Potential</div>
+          <div className="luxury-card mobile-card-padding">
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">∞</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Scaling Potential</div>
           </div>
         </div>
       </div>
