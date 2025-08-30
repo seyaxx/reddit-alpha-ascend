@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/5 rounded-full mobile-blur-reduced animate-pulse [animation-duration:6s]"></div>
       
       {/* Main Hero Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 w-full lg:max-w-6xl lg:mx-auto">
         <h1 className="font-display mobile-hero-text font-black mb-4 sm:mb-6 animate-luxury-fade-in leading-tight">
           <span className="luxury-text">DOMINATE</span>
           <br />

@@ -40,7 +40,7 @@ const AboutSection = () => {
       <div className="absolute inset-0 bg-gradient-red-glow opacity-10"></div>
       <div className="absolute top-12 md:top-20 right-12 md:right-20 w-32 md:w-64 h-32 md:h-64 bg-accent/10 rounded-full blur-3xl"></div>
       
-      <div className="max-w-7xl mx-auto relative">
+      <div className="w-full lg:max-w-7xl lg:mx-auto relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* Left: Founder Avatar & Story */}
