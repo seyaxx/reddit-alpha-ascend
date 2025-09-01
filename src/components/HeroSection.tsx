@@ -75,6 +75,21 @@ const HeroSection = () => {
               <div className="text-xs sm:text-sm font-semibold">REACH</div>
             </div>
           </div>
+          
+          {/* Collaboration Text */}
+          <div className="mt-6 sm:mt-8 animate-luxury-fade-in [animation-delay:1.2s]">
+            <p className="text-muted-foreground/60 text-xs sm:text-sm text-center">
+              Collaborating with{" "}
+              <a 
+                href="https://www.reddaccounts.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground/80 hover:text-accent transition-colors underline underline-offset-2"
+              >
+                Reddaccounts
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
