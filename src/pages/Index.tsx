@@ -5,7 +5,7 @@ import ProcessSection from "@/components/ProcessSection";
 import ResultsSection from "@/components/ResultsSection";
 import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
-import CTASection from "@/components/CTASection";
+
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,7 +16,6 @@ const Index = () => {
       <ProcessSection />
       <ResultsSection />
       <AboutSection />
-      <CTASection />
       <FAQSection />
       <Footer />
     </div>
