@@ -139,37 +139,6 @@ const AboutSection = () => {
           </div>
         </div>
         
-        {/* Philosophy Section */}
-        <div className="mt-16 md:mt-24 text-center">
-          <div className="luxury-card p-6 md:p-12 max-w-5xl mx-auto">
-            <h3 className="font-heading text-3xl md:text-4xl font-bold mb-6 md:mb-8">
-              The <span className="luxury-text">REDSEYA</span> Philosophy
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-left">
-              <div className="text-center md:text-left">
-                <div className="text-xl md:text-2xl font-display font-black luxury-text mb-3">AUTHENTIC</div>
-                <p className="font-body text-muted-foreground text-sm md:text-base">
-                  No bots, no fake accounts, no shortcuts. Every upvote, comment, and connection is genuine human engagement.
-                </p>
-              </div>
-              
-              <div className="text-center md:text-left">
-                <div className="text-xl md:text-2xl font-display font-black luxury-text mb-3">STRATEGIC</div>
-                <p className="font-body text-muted-foreground text-sm md:text-base">
-                  Every action is calculated, every post optimized, every community carefully selected for maximum impact.
-                </p>
-              </div>
-              
-              <div className="text-center md:text-left">
-                <div className="text-xl md:text-2xl font-display font-black luxury-text mb-3">RESULTS-DRIVEN</div>
-                <p className="font-body text-muted-foreground text-sm md:text-base">
-                  We don't measure success by vanity metrics. Revenue, conversions, and ROI are our only benchmarks.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
