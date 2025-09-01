@@ -102,6 +102,12 @@ const AboutSection = () => {
                 >
                   Contact Me
                 </button>
+                <button 
+                  className="outline-button text-base md:text-lg font-bold"
+                  onClick={() => window.location.href = '/team'}
+                >
+                  Meet the Team
+                </button>
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Privacy from "./pages/Privacy";
 import Booking from "./pages/Booking";
+import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
 import AudienceProfiling from "./pages/services/AudienceProfiling";
 import SubredditStrategy from "./pages/services/SubredditStrategy";
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/faq" element={<FAQ />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/booking" element={<Booking />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/services/audience-profiling" element={<AudienceProfiling />} />
           <Route path="/services/subreddit-strategy" element={<SubredditStrategy />} />
           <Route path="/services/content-crafting" element={<ContentCrafting />} />
