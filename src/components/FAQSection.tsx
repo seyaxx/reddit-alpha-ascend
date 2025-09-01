@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: "What's the minimum commitment and investment required?",
-    answer: "We offer flexible packages starting at 3-month commitments to allow proper strategy development and execution. Our service fee for 1 account is 500 EUR/month, and we offer attractive discounts for multiple accounts to help you scale your Reddit presence effectively."
+    answer: "Our service fee for 1 account is 500 EUR/month, and we offer attractive discounts for multiple accounts to help you scale your Reddit presence effectively. Please note that the price for the account and the proxy are paid separately."
   }
 ];
 
