@@ -146,18 +146,6 @@ const Booking = () => {
                 />
               </div>
 
-              <div>
-                <label className="font-heading text-sm font-bold text-foreground block mb-2">
-                  Current Monthly Budget Range
-                </label>
-                <select className="w-full px-4 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none font-body">
-                  <option value="">Select budget range</option>
-                  <option value="1k-3k">$1,000 - $3,000</option>
-                  <option value="3k-5k">$3,000 - $5,000</option>
-                  <option value="5k-10k">$5,000 - $10,000</option>
-                  <option value="10k+">$10,000+</option>
-                </select>
-              </div>
 
               <div>
                 <label className="font-heading text-sm font-bold text-foreground block mb-2">
