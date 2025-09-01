@@ -30,10 +30,12 @@ const HeroSection = () => {
           <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">— Organically.</span>
         </h1>
         
-        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-3xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2">
-          Next-level Reddit growth for <span className="text-accent font-semibold">influencers</span>, 
-          <span className="text-accent font-semibold"> agencies</span>, and 
-          <span className="text-accent font-semibold"> AI brands</span>.
+        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2">
+          Premium Reddit growth for <span className="text-accent font-semibold">start-ups</span>, 
+          <span className="text-accent font-semibold"> content creators</span>, 
+          <span className="text-accent font-semibold"> AI influencers</span>, 
+          <span className="text-accent font-semibold"> Forex & Crypto projects</span>, and 
+          <span className="text-accent font-semibold"> meme coins</span>.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-luxury-fade-in [animation-delay:0.6s]">

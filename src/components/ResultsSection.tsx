@@ -5,31 +5,31 @@ import CompanyBar from "./CompanyBar";
 const stats = [
   {
     icon: TrendingUp,
-    number: 500000,
-    suffix: "+",
-    label: "Upvotes Generated",
-    description: "Authentic engagement across 200+ subreddits"
+    number: 30,
+    suffix: "",
+    label: "Max Subs/Day",
+    description: "For free sites after 2-3 weeks setup"
   },
   {
     icon: Users,
-    number: 10000000,
-    suffix: "+", 
-    label: "Organic Reach",
-    description: "Monthly impressions for client content"
+    number: 50,
+    suffix: "+",
+    label: "Industries Served", 
+    description: "From tech startups to luxury brands"
   },
   {
     icon: DollarSign,
-    number: 300,
-    suffix: "%",
-    label: "Average ROI",
-    description: "Return on Reddit marketing investment"
+    number: 500,
+    suffix: "€",
+    label: "Monthly Investment",
+    description: "Premium service per account (EUR)"
   },
   {
     icon: Eye,
-    number: 50000,
+    number: 3,
     suffix: "+",
-    label: "Quality Clicks",
-    description: "High-intent traffic to client websites"
+    label: "Years Experience",
+    description: "Manual work, private proxies, real results"
   }
 ];
 
