@@ -150,12 +150,12 @@ const ProcessSection = () => {
         {/* Timeline Stats */}
         <div className="mt-12 sm:mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center">
           <div className="luxury-card mobile-card-padding">
-            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">7-14</div>
-            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days to Launch</div>
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">4-5</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days of account warm-up</div>
           </div>
           <div className="luxury-card mobile-card-padding">
-            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">30-90</div>
-            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days to Results</div>
+            <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">20-40</div>
+            <div className="font-heading text-xs sm:text-sm font-semibold text-muted-foreground">Days to results</div>
           </div>
           <div className="luxury-card mobile-card-padding">
             <div className="text-2xl sm:text-3xl font-display font-black luxury-text mb-1 sm:mb-2">24/7</div>
