@@ -1,4 +1,5 @@
 import { ArrowUp, Mail, Send, Instagram, Radio, ExternalLink } from "lucide-react";
+import Logo from "./Logo";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -18,9 +19,9 @@ const Footer = () => {
             {/* Brand Column - Left Side */}
             <div className="flex-1 max-w-md">
               <div className="mb-6">
-                <h3 className="font-display text-4xl font-black luxury-text mb-4">
-                  REDSEYA
-                </h3>
+                <div className="mb-4">
+                  <Logo size="large" />
+                </div>
                 <p className="font-body text-muted-foreground text-lg leading-relaxed">
                   Premium organic Reddit growth for brands that refuse to settle for mediocrity. 
                   Authentic engagement. Real results. Unmatched expertise.
