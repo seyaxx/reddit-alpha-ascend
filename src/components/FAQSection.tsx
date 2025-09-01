@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: "What kind of results can I expect and how quickly?",
-    answer: "Most clients see initial engagement within 7-14 days and substantial growth within 30-90 days. Results vary by industry and goals, but our average client achieves 300% ROI and 10x organic reach increase within the first quarter."
+    answer: "Most clients see initial engagement within 7-14 days and substantial growth within 30-90 days. Results vary by industry and goals, but typically we achieve 25–30 new subs/day after 2-3 weeks for free sites and 10–12 new subs/day after 2-3 weeks for paid sites."
   },
   {
     question: "Which subreddits will you target for my brand?",
