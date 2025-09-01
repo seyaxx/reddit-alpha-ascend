@@ -1,4 +1,4 @@
-import { TrendingUp, Users, DollarSign, Eye } from "lucide-react";
+import { TrendingUp, Users, Globe, Eye } from "lucide-react";
 import { useState, useEffect } from "react";
 import CompanyBar from "./CompanyBar";
 
@@ -6,9 +6,9 @@ const stats = [
   {
     icon: TrendingUp,
     number: 30,
-    suffix: "",
+    suffix: "+",
     label: "Daily Growth Potential",
-    description: "Premium subscriber acquisition for established content creators"
+    description: "Subscribers or users acquired per platform daily through our service"
   },
   {
     icon: Users,
@@ -18,7 +18,7 @@ const stats = [
     description: "From luxury brands to cutting-edge AI projects"
   },
   {
-    icon: DollarSign,
+    icon: Globe,
     number: 9,
     suffix: "",
     label: "Exclusive Features",
