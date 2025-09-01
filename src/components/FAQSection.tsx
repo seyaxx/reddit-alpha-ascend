@@ -99,24 +99,6 @@ const FAQSection = () => {
             </div>
           ))}
         </div>
-        
-        {/* Still Have Questions CTA */}
-        <div className="mt-16 text-center">
-          <div className="luxury-card p-8">
-            <h3 className="font-heading text-2xl font-bold mb-4">
-              Still Have <span className="luxury-text">Questions</span>?
-            </h3>
-            <p className="font-body text-muted-foreground mb-6">
-              Get personalized answers and a custom Reddit growth strategy for your brand.
-            </p>
-            <button 
-              className="glow-button text-lg font-bold"
-              onClick={() => window.location.href = '/booking'}
-            >
-              Schedule a Strategy Call
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
