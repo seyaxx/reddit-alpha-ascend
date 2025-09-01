@@ -1,5 +1,4 @@
 import { ArrowUp, Mail, Send, Instagram, Radio, ExternalLink } from "lucide-react";
-import Logo from "./Logo";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -20,7 +19,9 @@ const Footer = () => {
             <div className="flex-1 max-w-md">
               <div className="mb-6">
                 <div className="mb-4">
-                  <Logo size="large" />
+                  <h3 className="font-heading text-2xl font-bold text-foreground">
+                    REDSEYA
+                  </h3>
                 </div>
                 <p className="font-body text-muted-foreground text-lg leading-relaxed">
                   Premium organic Reddit growth for brands that refuse to settle for mediocrity. 
