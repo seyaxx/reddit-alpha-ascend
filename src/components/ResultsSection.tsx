@@ -1,35 +1,36 @@
-import { TrendingUp, Users, Globe, Eye } from "lucide-react";
-import { useState, useEffect } from "react";
+import { Shield, Target, Users, TrendingUp, Eye, Zap } from "lucide-react";
 import CompanyBar from "./CompanyBar";
 
-const stats = [
+const features = [
   {
-    icon: TrendingUp,
-    number: 30,
-    suffix: "+",
-    label: "Daily Growth Potential",
-    description: "Subscribers or users acquired per platform daily through our service"
+    icon: Shield,
+    title: "Expert Risk Management",
+    description: "Strategic approach minimizing penalties using proven safe methods and private 5G proxies"
+  },
+  {
+    icon: Target,
+    title: "500K+ Successful Posts", 
+    description: "Proven track record of dominating niche communities organically across 50+ industries"
   },
   {
     icon: Users,
-    number: 50,
-    suffix: "+",
-    label: "Industries Mastered", 
-    description: "From luxury brands to cutting-edge AI projects"
+    title: "10M+ Organic Impressions",
+    description: "Generated massive authentic reach without paid promotion through manual posting only"
   },
   {
-    icon: Globe,
-    number: 9,
-    suffix: "",
-    label: "Exclusive Features",
-    description: "Private 5G proxies, manual posting, moderator connections"
+    icon: TrendingUp,
+    title: "Guaranteed Daily Growth",
+    description: "25-30 new subscribers daily for free sites, 10-12 for paid sites after 2-3 weeks"
   },
   {
     icon: Eye,
-    number: 4,
-    suffix: "K",
-    label: "Quality Uploads",
-    description: "Zero compression loss, professional media handling"
+    title: "Premium Features Package",
+    description: "4K-safe uploads, direct moderator connections, custom content plans, full account ownership"
+  },
+  {
+    icon: Zap,
+    title: "Professional Service Standards",
+    description: "Manual work only, flexible delivery via Telegram/Drive, legal contracts available, no outsourcing"
   }
 ];
 
@@ -57,35 +58,6 @@ const testimonials = [
   }
 ];
 
-const CounterAnimation = ({ number, suffix }: { number: number; suffix: string }) => {
-  const [count, setCount] = useState(0);
-  
-  useEffect(() => {
-    const duration = 2000;
-    const steps = 60;
-    const increment = number / steps;
-    let current = 0;
-    
-    const timer = setInterval(() => {
-      current += increment;
-      if (current >= number) {
-        setCount(number);
-        clearInterval(timer);
-      } else {
-        setCount(Math.floor(current));
-      }
-    }, duration / steps);
-    
-    return () => clearInterval(timer);
-  }, [number]);
-  
-  return (
-    <span className="animate-counter-up">
-      {count.toLocaleString()}{suffix}
-    </span>
-  );
-};
-
 const ResultsSection = () => {
   return (
     <section className="py-24 px-6 bg-background relative overflow-hidden">
@@ -96,7 +68,7 @@ const ResultsSection = () => {
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-20">
           <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6">
-            Premium <span className="luxury-text">Service</span> Details
+            Why <span className="luxury-text">Top Brands</span> Choose Us
           </h2>
           <p className="font-body text-xl text-muted-foreground max-w-4xl mx-auto">
             Exclusive Reddit management featuring private 5G proxies, manual posting, and direct moderator relationships. 
@@ -104,28 +76,24 @@ const ResultsSection = () => {
           </p>
         </div>
         
-        {/* Statistics Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
-          {stats.map((stat, index) => (
+        {/* Features Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+          {features.map((feature, index) => (
             <div 
-              key={stat.label}
-              className="luxury-card p-8 text-center group animate-luxury-fade-in"
+              key={feature.title}
+              className="luxury-card p-8 text-left group animate-luxury-fade-in"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-full mb-6 shadow-red-glow group-hover:scale-110 transition-transform duration-300">
-                <stat.icon className="w-8 h-8 text-primary-foreground" />
+                <feature.icon className="w-8 h-8 text-primary-foreground" />
               </div>
               
-              <div className="text-4xl md:text-5xl font-display font-black luxury-text mb-2">
-                <CounterAnimation number={stat.number} suffix={stat.suffix} />
-              </div>
-              
-              <h3 className="font-heading text-lg font-bold mb-2 text-foreground">
-                {stat.label}
+              <h3 className="font-heading text-xl font-bold mb-3 text-foreground">
+                {feature.title}
               </h3>
               
-              <p className="font-body text-muted-foreground text-sm">
-                {stat.description}
+              <p className="font-body text-muted-foreground text-sm leading-relaxed">
+                {feature.description}
               </p>
             </div>
           ))}
