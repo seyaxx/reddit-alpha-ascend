@@ -4,33 +4,33 @@ import CompanyBar from "./CompanyBar";
 const features = [
   {
     icon: Shield,
-    title: "Expert Risk Management",
-    description: "Strategic approach minimizing penalties using proven safe methods and private 5G proxies"
+    title: "Private 5G Proxies & Safe Methods",
+    description: "Exclusive access to private 5G proxy network and proven safe posting methods that minimize risk of penalties or shadowbans"
   },
   {
     icon: Target,
-    title: "500K+ Successful Posts", 
-    description: "Proven track record of dominating niche communities organically across 50+ industries"
+    title: "Manual Posting Only",
+    description: "100% manual work with no automation, bots, or VAs. Every post is crafted and placed by experienced Reddit specialists"
   },
   {
     icon: Users,
-    title: "10M+ Organic Impressions",
-    description: "Generated massive authentic reach without paid promotion through manual posting only"
+    title: "Direct Moderator Relationships",
+    description: "Established connections with key moderators across major subreddits for better post visibility and community access"
   },
   {
     icon: TrendingUp,
     title: "Guaranteed Daily Growth",
-    description: "25-30 new subscribers daily for free sites, 10-12 for paid sites after 2-3 weeks"
+    description: "Service typically brings 30+ subscribers or users acquired per platform daily for established creators after initial growth period"
   },
   {
     icon: Eye,
-    title: "Premium Features Package",
-    description: "4K-safe uploads, direct moderator connections, custom content plans, full account ownership"
+    title: "4K-Safe Upload & Content Strategy",
+    description: "Professional content optimization with 4K-safe uploads, custom posting schedules, and tailored content plans for maximum engagement"
   },
   {
     icon: Zap,
-    title: "Professional Service Standards",
-    description: "Manual work only, flexible delivery via Telegram/Drive, legal contracts available, no outsourcing"
+    title: "Full Account Ownership & Legal Contracts",
+    description: "Complete account ownership transfer, legal service agreements, and flexible delivery via Telegram or Drive for total transparency"
   }
 ];
 
