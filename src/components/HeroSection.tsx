@@ -43,7 +43,7 @@ const HeroSection = () => {
             className="glow-button text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"
             onClick={() => window.location.href = '/booking'}
           >
-            Book a Strategy Session
+            Book a FREE call
             <ArrowRight className="ml-2 h-4 sm:h-5 w-4 sm:w-5" />
           </Button>
           
