@@ -7,29 +7,29 @@ const stats = [
     icon: TrendingUp,
     number: 30,
     suffix: "",
-    label: "Max Subs/Day",
-    description: "For free sites after 2-3 weeks setup"
+    label: "Daily Growth Potential",
+    description: "Premium subscriber acquisition for established content creators"
   },
   {
     icon: Users,
     number: 50,
     suffix: "+",
-    label: "Industries Served", 
-    description: "From tech startups to luxury brands"
+    label: "Industries Mastered", 
+    description: "From luxury brands to cutting-edge AI projects"
   },
   {
     icon: DollarSign,
-    number: 500,
-    suffix: "€",
-    label: "Monthly Investment",
-    description: "Premium service per account (EUR)"
+    number: 9,
+    suffix: "",
+    label: "Exclusive Features",
+    description: "Private 5G proxies, manual posting, moderator connections"
   },
   {
     icon: Eye,
-    number: 3,
-    suffix: "+",
-    label: "Years Experience",
-    description: "Manual work, private proxies, real results"
+    number: 4,
+    suffix: "K",
+    label: "Quality Uploads",
+    description: "Zero compression loss, professional media handling"
   }
 ];
 
@@ -96,11 +96,11 @@ const ResultsSection = () => {
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-20">
           <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6">
-            Proven <span className="luxury-text">Results</span>
+            Premium <span className="luxury-text">Service</span> Details
           </h2>
-          <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real numbers from real campaigns. Our clients don't just grow their Reddit presence - 
-            they dominate their industries through strategic community building.
+          <p className="font-body text-xl text-muted-foreground max-w-4xl mx-auto">
+            Exclusive Reddit management featuring private 5G proxies, manual posting, and direct moderator relationships. 
+            No VAs, no automation - just premium results for serious creators.
           </p>
         </div>
         
