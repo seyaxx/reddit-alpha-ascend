@@ -1,38 +1,4 @@
-import { Shield, Target, Users, TrendingUp, Eye, Zap } from "lucide-react";
 import CompanyBar from "./CompanyBar";
-
-const features = [
-  {
-    icon: Shield,
-    title: "Private 5G Proxies & Safe Methods",
-    description: "Exclusive access to private 5G proxy network and proven safe posting methods that minimize risk of penalties or shadowbans"
-  },
-  {
-    icon: Target,
-    title: "Manual Posting Only",
-    description: "100% manual work with no automation, bots, or VAs. Every post is crafted and placed by experienced Reddit specialists"
-  },
-  {
-    icon: Users,
-    title: "Direct Moderator Relationships",
-    description: "Established connections with key moderators across major subreddits for better post visibility and community access"
-  },
-  {
-    icon: TrendingUp,
-    title: "Guaranteed Daily Growth",
-    description: "Service typically brings 30+ subscribers or users acquired per platform daily for established creators after initial growth period"
-  },
-  {
-    icon: Eye,
-    title: "4K-Safe Upload & Content Strategy",
-    description: "Professional content optimization with 4K-safe uploads, custom posting schedules, and tailored content plans for maximum engagement"
-  },
-  {
-    icon: Zap,
-    title: "Full Account Ownership & Legal Contracts",
-    description: "Complete account ownership transfer, legal service agreements, and flexible delivery via Telegram or Drive for total transparency"
-  }
-];
 
 const testimonials = [
   {
@@ -54,7 +20,7 @@ const testimonials = [
     author: "👤",
     title: "Private Name",
     company: "FlixBuddy CEO",
-    result: "$150K+ in attributed revenue"
+    result: "150K+ in attributed revenue"
   }
 ];
 
@@ -66,39 +32,6 @@ const ResultsSection = () => {
       <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative">
-        <div className="text-center mb-20">
-          <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6">
-            Why <span className="luxury-text">Top Brands</span> Choose Us
-          </h2>
-          <p className="font-body text-xl text-muted-foreground max-w-4xl mx-auto">
-            Exclusive Reddit management featuring private 5G proxies, manual posting, and direct moderator relationships. 
-            No VAs, no automation - just premium results for serious creators.
-          </p>
-        </div>
-        
-        {/* Features Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
-          {features.map((feature, index) => (
-            <div 
-              key={feature.title}
-              className="luxury-card p-8 text-left group animate-luxury-fade-in"
-              style={{ animationDelay: `${index * 0.15}s` }}
-            >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-full mb-6 shadow-red-glow group-hover:scale-110 transition-transform duration-300">
-                <feature.icon className="w-8 h-8 text-primary-foreground" />
-              </div>
-              
-              <h3 className="font-heading text-xl font-bold mb-3 text-foreground">
-                {feature.title}
-              </h3>
-              
-              <p className="font-body text-muted-foreground text-sm leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          ))}
-        </div>
-        
         {/* Testimonials */}
         <div>
           <h3 className="font-heading text-4xl font-bold text-center mb-16">
