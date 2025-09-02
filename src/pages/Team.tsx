@@ -57,7 +57,7 @@ const Team = () => {
           <h1 className="font-heading text-5xl md:text-7xl font-black mb-6">
             Meet Our <span className="luxury-text">Elite Team</span>
           </h1>
-          <p className="font-body text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="font-body text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
             The masterminds behind Reddit's most successful organic growth campaigns
           </p>
         </div>
