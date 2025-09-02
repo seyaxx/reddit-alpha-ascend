@@ -68,10 +68,10 @@ const Team = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
-              Our <span className="luxury-text">Dream Team</span>
+              Meet Our <span className="luxury-text">Executive Team</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Each member brings unique expertise and proven results in Reddit marketing
+              Industry-leading professionals delivering exceptional results through strategic Reddit marketing excellence
             </p>
           </div>
 
