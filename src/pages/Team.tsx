@@ -122,18 +122,12 @@ const Team = () => {
               <p className="font-body text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Let our expert team craft a custom Reddit growth strategy that delivers real results for your brand.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex justify-center">
                 <button 
                   className="glow-button text-lg font-bold"
                   onClick={() => window.location.href = '/booking'}
                 >
                   Start Your Campaign
-                </button>
-                <button 
-                  className="gold-button text-lg font-bold"
-                  onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
-                >
-                  Contact Our Team
                 </button>
               </div>
             </div>
