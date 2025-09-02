@@ -31,14 +31,26 @@ const HeroSection = () => {
       {/* Main Hero Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 w-full lg:max-w-6xl lg:mx-auto">
         <h1 className="font-display mobile-hero-text font-black mb-4 sm:mb-6 animate-luxury-fade-in leading-tight">
-          <span className="luxury-text">DOMINATE</span>
+          <span className="luxury-text" style={{ 
+            WebkitTextStroke: '3px hsl(var(--background))',
+            textShadow: '4px 4px 0px hsl(var(--background)), -4px -4px 0px hsl(var(--background)), 4px -4px 0px hsl(var(--background)), -4px 4px 0px hsl(var(--background))'
+          }}>DOMINATE</span>
           <br />
-          <span className="text-foreground">REDDIT</span>
+          <span className="text-foreground" style={{ 
+            WebkitTextStroke: '3px hsl(var(--background))',
+            textShadow: '4px 4px 0px hsl(var(--background)), -4px -4px 0px hsl(var(--background)), 4px -4px 0px hsl(var(--background)), -4px 4px 0px hsl(var(--background))'
+          }}>REDDIT</span>
           <br />
-          <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">— Organically.</span>
+          <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold" style={{ 
+            WebkitTextStroke: '2px hsl(var(--background))',
+            textShadow: '3px 3px 0px hsl(var(--background)), -3px -3px 0px hsl(var(--background)), 3px -3px 0px hsl(var(--background)), -3px 3px 0px hsl(var(--background))'
+          }}>— Organically.</span>
         </h1>
         
-        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2">
+        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2" style={{ 
+          WebkitTextStroke: '1px hsl(var(--background))',
+          textShadow: '2px 2px 0px hsl(var(--background)), -2px -2px 0px hsl(var(--background)), 2px -2px 0px hsl(var(--background)), -2px 2px 0px hsl(var(--background))'
+        }}>
           Premium Reddit growth for <span className="text-accent font-semibold">start-ups</span>, 
           <span className="text-accent font-semibold"> content creators</span>, 
           <span className="text-accent font-semibold"> AI influencers</span>, 
