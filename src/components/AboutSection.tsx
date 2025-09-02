@@ -97,7 +97,7 @@ const AboutSection = () => {
                   Work With Me
                 </button>
                 <button 
-                  className="gold-button text-base md:text-lg font-bold"
+                  className="dark-luxury-button text-base md:text-lg font-bold"
                   onClick={() => window.open('https://t.me/teodorxseya', '_blank')}
                 >
                   Contact Me
