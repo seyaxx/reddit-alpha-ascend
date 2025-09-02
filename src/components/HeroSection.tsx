@@ -38,7 +38,7 @@ const HeroSection = () => {
           <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">— Organically.</span>
         </h1>
         
-        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-6 py-4 border border-primary/20 rounded-2xl backdrop-blur-md bg-gradient-to-r from-background/30 via-background/20 to-background/30 shadow-luxury">
+        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           Premium Reddit growth for <span className="text-accent font-semibold">start-ups</span>, 
           <span className="text-accent font-semibold"> content creators</span>, 
           <span className="text-accent font-semibold"> AI influencers</span>, 
