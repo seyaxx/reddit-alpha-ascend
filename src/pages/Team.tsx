@@ -5,42 +5,42 @@ const Team = () => {
     {
       name: "Teodor Seya",
       role: "Founder & CEO",
-      experience: "5+ years in Reddit marketing, built organic communities with 100K+ members",
+      experience: "5+ years mastering Reddit's organic ecosystem, architecting premium growth strategies that generate millions in authentic engagement",
       icon: Trophy,
       gradient: "from-red-500 to-orange-500"
     },
     {
       name: "Claudiu",
       role: "Content Strategist",
-      experience: "Expert in viral content creation and community engagement strategies",
+      experience: "4 years crafting viral Reddit content, specializing in authentic storytelling that drives organic community growth and engagement",
       icon: Star,
       gradient: "from-blue-500 to-purple-500"
     },
     {
       name: "Jan",
       role: "Community Manager",
-      experience: "3+ years managing high-engagement Reddit communities and campaigns",
+      experience: "4 years building and nurturing elite Reddit communities, delivering exceptional engagement through strategic relationship management",
       icon: Users,
       gradient: "from-green-500 to-teal-500"
     },
     {
       name: "Glory",
       role: "Analytics Specialist",
-      experience: "Data-driven growth expert with proven track record in performance optimization",
+      experience: "3 years transforming Reddit data into actionable insights, optimizing campaigns for maximum ROI and sustainable organic growth",
       icon: Target,
       gradient: "from-purple-500 to-pink-500"
     },
     {
       name: "Sara",
       role: "Creative Director",
-      experience: "Design and branding specialist focused on Reddit-optimized visual content",
+      experience: "2 years designing premium visual content for Reddit, creating compelling brand narratives that resonate with discerning communities",
       icon: Zap,
       gradient: "from-yellow-500 to-red-500"
     },
     {
       name: "Eduard",
       role: "Growth Hacker",
-      experience: "Scaling specialist with expertise in rapid audience acquisition and retention",
+      experience: "1 year rapidly scaling Reddit presence, implementing cutting-edge growth techniques for accelerated audience acquisition",
       icon: Award,
       gradient: "from-indigo-500 to-blue-500"
     }
