@@ -6,30 +6,30 @@
 
 @layer base {
   :root {
-    /* Luxury brown/gold theme matching REDSEYA logo */
-    --background: 20 30% 8%;  /* Rich dark brown */
-    --foreground: 45 100% 85%; /* Luxury gold text */
+    /* Reddit-inspired red theme */
+    --background: 0 0% 6%;  /* Dark background */
+    --foreground: 0 0% 95%; /* Light text */
 
-    --card: 20 35% 12%; /* Slightly lighter brown for cards */
-    --card-foreground: 45 90% 80%;
+    --card: 0 0% 10%; /* Dark cards */
+    --card-foreground: 0 0% 90%;
 
-    --popover: 20 40% 10%;
-    --popover-foreground: 45 100% 85%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Luxury gold primary */
-    --primary: 45 100% 65%;  /* Luxury gold matching logo */
-    --primary-foreground: 20 30% 8%;
-    --primary-glow: 45 100% 75%;
+    /* Reddit red primary */
+    --primary: 14 100% 57%;  /* Reddit orange-red */
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 14 100% 65%;
 
-    /* Rich brown secondary */
-    --secondary: 20 45% 25%;  /* Rich brown */
-    --secondary-foreground: 45 100% 85%;
+    /* Vibrant orange secondary */
+    --secondary: 24 100% 50%;  /* Bright orange */
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 20 25% 15%;
-    --muted-foreground: 45 60% 60%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 45 100% 70%;  /* Bright gold accent */
-    --accent-foreground: 20 30% 8%;
+    --accent: 14 100% 60%;  /* Bright red accent */
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
@@ -38,11 +38,11 @@
     --input: 0 0% 10%;
     --ring: 0 100% 35%;
 
-    /* Premium gradients with brown/gold theme */
+    /* Premium gradients with Reddit red theme */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-gold: linear-gradient(135deg, hsl(45 100% 65%), hsl(45 100% 80%));
-    --gradient-dark: linear-gradient(180deg, hsl(20 30% 5%), hsl(20 35% 12%));
-    --gradient-brown: linear-gradient(135deg, hsl(20 45% 25%), hsl(20 35% 15%));
+    --gradient-gold: linear-gradient(135deg, hsl(24 100% 50%), hsl(14 100% 60%));
+    --gradient-dark: linear-gradient(180deg, hsl(0 0% 3%), hsl(0 0% 8%));
+    --gradient-reddit: linear-gradient(135deg, hsl(14 100% 57%), hsl(24 100% 50%));
     --gradient-red-glow: radial-gradient(circle, hsl(var(--primary) / 0.3), transparent);
     
     /* Luxury shadows and glows */

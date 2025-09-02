@@ -1,46 +1,47 @@
 import { Users, Star, Trophy, Target, Zap, Award } from "lucide-react";
+import redditAnimationBg from "@/assets/reddit-animation-bg.jpg";
 
 const Team = () => {
   const teamMembers = [
     {
       name: "Teodor Seya",
       role: "Founder & CEO",
-      experience: "5+ years mastering Reddit's organic ecosystem, architecting premium growth strategies that generate millions in authentic engagement",
+      experience: "5+ years dominating Reddit's ecosystem. Built viral campaigns reaching 50M+ users. Expert in organic growth, community psychology, and viral content strategies.",
       icon: Trophy,
       gradient: "from-red-500 to-orange-500"
     },
     {
       name: "Claudiu",
-      role: "Content Strategist",
-      experience: "4 years crafting viral Reddit content, specializing in authentic storytelling that drives organic community growth and engagement",
+      role: "Senior Reddit Strategist",
+      experience: "4 years of pure Reddit mastery. Specializes in subreddit infiltration, authentic community building, and turning lurkers into loyal followers through psychological triggers.",
       icon: Star,
       gradient: "from-blue-500 to-purple-500"
     },
     {
       name: "Jan",
-      role: "Community Manager",
-      experience: "4 years building and nurturing elite Reddit communities, delivering exceptional engagement through strategic relationship management",
+      role: "Community Growth Manager",
+      experience: "4 years building Reddit empires. Master of engagement psychology, comment threading strategies, and turning negative sentiment into brand advocacy.",
       icon: Users,
       gradient: "from-green-500 to-teal-500"
     },
     {
       name: "Glory",
-      role: "Analytics Specialist",
-      experience: "3 years transforming Reddit data into actionable insights, optimizing campaigns for maximum ROI and sustainable organic growth",
+      role: "Reddit Analytics Specialist",
+      experience: "3 years cracking Reddit's algorithm. Data scientist who identifies trending patterns, optimal posting times, and viral content formulas that guarantee upvotes.",
       icon: Target,
       gradient: "from-purple-500 to-pink-500"
     },
     {
       name: "Sara",
-      role: "Creative Director",
-      experience: "2 years designing premium visual content for Reddit, creating compelling brand narratives that resonate with discerning communities",
+      role: "Viral Content Creator",
+      experience: "2 years crafting Reddit-specific content. Expert in meme culture, subreddit linguistics, and creating thumb-stopping visuals that Reddit users can't ignore.",
       icon: Zap,
       gradient: "from-yellow-500 to-red-500"
     },
     {
       name: "Eduard",
-      role: "Growth Hacker",
-      experience: "1 year rapidly scaling Reddit presence, implementing cutting-edge growth techniques for accelerated audience acquisition",
+      role: "Reddit Growth Hacker",
+      experience: "1 year of explosive growth tactics. Specializes in rapid account scaling, karma farming strategies, and turning Reddit traffic into business results.",
       icon: Award,
       gradient: "from-indigo-500 to-blue-500"
     }
@@ -51,7 +52,7 @@ const Team = () => {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-dark opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('/src/assets/reddit-domination-bg.jpg')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${redditAnimationBg})` }}></div>
         
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <h1 className="font-heading text-5xl md:text-7xl font-black mb-6">
