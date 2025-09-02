@@ -68,6 +68,7 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-gold': 'var(--gradient-gold)',
 				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-brown': 'var(--gradient-brown)',
 				'gradient-red-glow': 'var(--gradient-red-glow)'
 			},
 			fontFamily: {

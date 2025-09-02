@@ -1,24 +1,31 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import redditDominationBg from "@/assets/reddit-domination-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* AI-Generated Video Background */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
+      {/* Luxury REDSEYA Logo Background */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-pulse"
-        style={{ backgroundImage: `url(${redditDominationBg})` }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 animate-continuous-pulse"
+        style={{ backgroundImage: `url(/lovable-uploads/017e551e-b0b0-4440-aedb-78d529c9870e.png)` }}
       ></div>
       
-      {/* Dark Gradient Overlay for Text Readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+      {/* Rich Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/90"></div>
       
-      {/* Animated Energy Effects - Mobile Optimized */}
-      <div className="absolute inset-0 bg-gradient-red-glow opacity-10 animate-pulse [animation-duration:3s]"></div>
-      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-primary/20 rounded-full mobile-blur-reduced animate-pulse [animation-duration:4s]"></div>
-      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-accent/20 rounded-full mobile-blur-reduced animate-pulse [animation-duration:5s]"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/5 rounded-full mobile-blur-reduced animate-pulse [animation-duration:6s]"></div>
+      {/* Animated Golden Energy Effects - 24/7 Animation */}
+      <div className="absolute inset-0 bg-gradient-gold opacity-5 animate-continuous-pulse [animation-duration:4s]"></div>
+      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-primary/15 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:5s]"></div>
+      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-accent/15 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:6s]"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/8 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:7s]"></div>
+      
+      {/* Floating Logo Animation */}
+      <div className="absolute top-1/4 right-1/4 w-24 h-24 sm:w-32 sm:h-32 opacity-20 animate-luxury-logo-float">
+        <img src="/lovable-uploads/017e551e-b0b0-4440-aedb-78d529c9870e.png" alt="REDSEYA Logo" className="w-full h-full object-contain" />
+      </div>
+      <div className="absolute bottom-1/4 left-1/4 w-20 h-20 sm:w-28 sm:h-28 opacity-15 animate-luxury-logo-float [animation-delay:2s]">
+        <img src="/lovable-uploads/017e551e-b0b0-4440-aedb-78d529c9870e.png" alt="REDSEYA Logo" className="w-full h-full object-contain" />
+      </div>
       
       {/* Main Hero Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 w-full lg:max-w-6xl lg:mx-auto">

@@ -6,30 +6,30 @@
 
 @layer base {
   :root {
-    /* Core luxury theme */
-    --background: 0 0% 3%;
-    --foreground: 0 0% 98%;
+    /* Luxury brown/gold theme matching REDSEYA logo */
+    --background: 20 30% 8%;  /* Rich dark brown */
+    --foreground: 45 100% 85%; /* Luxury gold text */
 
-    --card: 0 0% 6%;
-    --card-foreground: 0 0% 95%;
+    --card: 20 35% 12%; /* Slightly lighter brown for cards */
+    --card-foreground: 45 90% 80%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 20 40% 10%;
+    --popover-foreground: 45 100% 85%;
 
-    /* Deep red primary with luxury gold accents */
-    --primary: 0 100% 27%;  /* Deep red #8B0000 */
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 0 100% 35%;
+    /* Luxury gold primary */
+    --primary: 45 100% 65%;  /* Luxury gold matching logo */
+    --primary-foreground: 20 30% 8%;
+    --primary-glow: 45 100% 75%;
 
-    /* Gold luxury accents */
-    --secondary: 45 100% 51%;  /* Gold */
-    --secondary-foreground: 0 0% 8%;
+    /* Rich brown secondary */
+    --secondary: 20 45% 25%;  /* Rich brown */
+    --secondary-foreground: 45 100% 85%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 20 25% 15%;
+    --muted-foreground: 45 60% 60%;
 
-    --accent: 45 100% 51%;  /* Gold accent */
-    --accent-foreground: 0 0% 8%;
+    --accent: 45 100% 70%;  /* Bright gold accent */
+    --accent-foreground: 20 30% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
@@ -38,10 +38,11 @@
     --input: 0 0% 10%;
     --ring: 0 100% 35%;
 
-    /* Premium gradients */
+    /* Premium gradients with brown/gold theme */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-gold: linear-gradient(135deg, hsl(45 100% 51%), hsl(45 100% 65%));
-    --gradient-dark: linear-gradient(180deg, hsl(0 0% 3%), hsl(0 0% 8%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 65%), hsl(45 100% 80%));
+    --gradient-dark: linear-gradient(180deg, hsl(20 30% 5%), hsl(20 35% 12%));
+    --gradient-brown: linear-gradient(135deg, hsl(20 45% 25%), hsl(20 35% 15%));
     --gradient-red-glow: radial-gradient(circle, hsl(var(--primary) / 0.3), transparent);
     
     /* Luxury shadows and glows */
@@ -198,6 +199,36 @@
       opacity: 0.7;
     }
   }
+
+  @keyframes luxury-logo-float {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+      filter: drop-shadow(0 0 20px hsl(var(--primary) / 0.4));
+    }
+    25% {
+      transform: translateY(-8px) rotate(2deg);
+      filter: drop-shadow(0 0 30px hsl(var(--primary) / 0.6));
+    }
+    50% {
+      transform: translateY(-5px) rotate(0deg);
+      filter: drop-shadow(0 0 25px hsl(var(--primary) / 0.5));
+    }
+    75% {
+      transform: translateY(-8px) rotate(-2deg);
+      filter: drop-shadow(0 0 30px hsl(var(--primary) / 0.6));
+    }
+  }
+
+  @keyframes continuous-pulse {
+    0%, 100% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  }
 }
 
 /* Luxury Utility Classes */
@@ -285,6 +316,14 @@
 
   .animate-fire-aura-alt {
     animation: fire-aura-alt 2.5s ease-in-out infinite;
+  }
+
+  .animate-luxury-logo-float {
+    animation: luxury-logo-float 4s ease-in-out infinite;
+  }
+
+  .animate-continuous-pulse {
+    animation: continuous-pulse 3s ease-in-out infinite;
   }
 }
 
