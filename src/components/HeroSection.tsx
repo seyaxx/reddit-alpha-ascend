@@ -15,10 +15,10 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background/80"></div>
       
       {/* Animated Reddit Energy Effects - 24/7 Animation */}
-      <div className="absolute inset-0 bg-gradient-reddit opacity-8 animate-continuous-pulse [animation-duration:4s]"></div>
-      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-primary/15 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:5s]"></div>
-      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-accent/15 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:6s]"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/8 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:7s]"></div>
+      <div className="absolute inset-0 bg-gradient-reddit opacity-4 animate-continuous-pulse [animation-duration:4s]"></div>
+      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-primary/10 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:5s]"></div>
+      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-accent/10 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:6s]"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/5 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:7s]"></div>
       
       {/* Floating Reddit Elements Animation */}
       <div className="absolute top-1/4 right-1/4 w-16 h-16 sm:w-24 sm:h-24 opacity-20 animate-luxury-logo-float">
@@ -31,26 +31,14 @@ const HeroSection = () => {
       {/* Main Hero Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 w-full lg:max-w-6xl lg:mx-auto">
         <h1 className="font-display mobile-hero-text font-black mb-4 sm:mb-6 animate-luxury-fade-in leading-tight">
-          <span className="luxury-text" style={{ 
-            WebkitTextStroke: '3px hsl(var(--background))',
-            textShadow: '4px 4px 0px hsl(var(--background)), -4px -4px 0px hsl(var(--background)), 4px -4px 0px hsl(var(--background)), -4px 4px 0px hsl(var(--background))'
-          }}>DOMINATE</span>
+          <span className="luxury-text drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">DOMINATE</span>
           <br />
-          <span className="text-foreground" style={{ 
-            WebkitTextStroke: '3px hsl(var(--background))',
-            textShadow: '4px 4px 0px hsl(var(--background)), -4px -4px 0px hsl(var(--background)), 4px -4px 0px hsl(var(--background)), -4px 4px 0px hsl(var(--background))'
-          }}>REDDIT</span>
+          <span className="text-foreground drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">REDDIT</span>
           <br />
-          <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold" style={{ 
-            WebkitTextStroke: '2px hsl(var(--background))',
-            textShadow: '3px 3px 0px hsl(var(--background)), -3px -3px 0px hsl(var(--background)), 3px -3px 0px hsl(var(--background)), -3px 3px 0px hsl(var(--background))'
-          }}>— Organically.</span>
+          <span className="text-muted-foreground font-heading text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">— Organically.</span>
         </h1>
         
-        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2" style={{ 
-          WebkitTextStroke: '1px hsl(var(--background))',
-          textShadow: '2px 2px 0px hsl(var(--background)), -2px -2px 0px hsl(var(--background)), 2px -2px 0px hsl(var(--background)), -2px 2px 0px hsl(var(--background))'
-        }}>
+        <p className="font-body text-base sm:text-lg md:text-xl lg:text-2xl text-foreground mb-6 sm:mb-8 max-w-4xl mx-auto animate-luxury-fade-in [animation-delay:0.3s] leading-relaxed px-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] bg-black/20 backdrop-blur-sm rounded-lg p-4">
           Premium Reddit growth for <span className="text-accent font-semibold">start-ups</span>, 
           <span className="text-accent font-semibold"> content creators</span>, 
           <span className="text-accent font-semibold"> AI influencers</span>, 
