@@ -16,19 +16,19 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    /* Reddit red primary */
-    --primary: 14 100% 57%;  /* Reddit orange-red */
+    /* Pure red primary */
+    --primary: 0 85% 60%;  /* Pure red */
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 14 100% 65%;
+    --primary-glow: 0 85% 70%;
 
-    /* Vibrant orange secondary */
-    --secondary: 24 100% 50%;  /* Bright orange */
+    /* Deep red secondary */
+    --secondary: 350 85% 55%;  /* Deep red-crimson */
     --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 14 100% 60%;  /* Bright red accent */
+    --accent: 10 90% 65%;  /* Bright red-orange accent */
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
@@ -36,13 +36,13 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 10%;
-    --ring: 0 100% 35%;
+    --ring: 0 85% 60%;
 
-    /* Premium gradients with Reddit red theme */
+    /* Premium gradients with pure red theme */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-gold: linear-gradient(135deg, hsl(24 100% 50%), hsl(14 100% 60%));
+    --gradient-gold: linear-gradient(135deg, hsl(10 90% 60%), hsl(0 85% 65%));
     --gradient-dark: linear-gradient(180deg, hsl(0 0% 3%), hsl(0 0% 8%));
-    --gradient-reddit: linear-gradient(135deg, hsl(14 100% 57%), hsl(24 100% 50%));
+    --gradient-reddit: linear-gradient(135deg, hsl(0 85% 60%), hsl(350 85% 55%));
     --gradient-red-glow: radial-gradient(circle, hsl(var(--primary) / 0.3), transparent);
     
     /* Luxury shadows and glows */
