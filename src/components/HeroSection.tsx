@@ -14,11 +14,11 @@ const HeroSection = () => {
       {/* Rich Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background/80"></div>
       
-      {/* Animated Reddit Energy Effects - Reduced Orange */}
-      <div className="absolute inset-0 bg-gradient-reddit opacity-2 animate-continuous-pulse [animation-duration:6s]"></div>
-      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-primary/5 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:8s]"></div>
-      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-accent/5 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:10s]"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/3 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:12s]"></div>
+      {/* Subtle Animation Effects - Minimal Orange */}
+      <div className="absolute inset-0 bg-gradient-dark opacity-20 animate-continuous-pulse [animation-duration:8s]"></div>
+      <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-96 h-48 sm:h-96 bg-foreground/2 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:10s]"></div>
+      <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-36 sm:w-72 h-36 sm:h-72 bg-foreground/2 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:12s]"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-primary/1 rounded-full mobile-blur-reduced animate-continuous-pulse [animation-duration:15s]"></div>
       
       {/* Floating Reddit Elements Animation */}
       <div className="absolute top-1/4 right-1/4 w-16 h-16 sm:w-24 sm:h-24 opacity-20 animate-luxury-logo-float">
