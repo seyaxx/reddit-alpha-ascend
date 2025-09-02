@@ -103,7 +103,7 @@ const AboutSection = () => {
                   Contact Me
                 </button>
                 <button 
-                  className="glow-button text-base md:text-lg font-bold"
+                  className="luxury-gradient-button text-base md:text-lg font-bold"
                   onClick={() => window.location.href = '/team'}
                 >
                   Meet the Team
