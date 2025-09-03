@@ -121,46 +121,6 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Luxury CTA Section */}
-        <div className="relative overflow-hidden">
-          {/* Luxury Background */}
-          <div className="absolute inset-0 bg-gradient-to-r from-red-900/90 via-red-600/95 to-red-900/90"></div>
-          <div className="absolute inset-0 bg-gradient-subtle opacity-30"></div>
-          
-          {/* Content */}
-          <div className="relative py-16 px-6">
-            <div className="max-w-6xl mx-auto">
-              <div className="luxury-card bg-card/10 backdrop-blur-xl border-2 border-red-500/30 p-12 rounded-3xl shadow-luxury">
-                <div className="text-center">
-                  <div className="mb-8">
-                    <h3 className="font-heading text-4xl md:text-5xl font-black mb-4">
-                      <span className="luxury-text">Ready to Dominate</span> 
-                      <span className="text-white"> Reddit?</span>
-                    </h3>
-                    <p className="font-body text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-                      Join the elite. Transform your Reddit presence into an empire of influence.
-                    </p>
-                  </div>
-                  
-                  <div className="flex justify-center">
-                    <button 
-                      className="glow-button text-xl font-black px-12 py-4 transform hover:scale-105 transition-all duration-300"
-                      onClick={() => window.location.href = '/booking'}
-                    >
-                      Start Your Empire
-                    </button>
-                  </div>
-                </div>
-                
-                {/* Decorative Elements */}
-                <div className="absolute top-4 left-4 w-16 h-16 border-2 border-red-400/30 rounded-full animate-pulse"></div>
-                <div className="absolute bottom-4 right-4 w-12 h-12 border-2 border-red-400/30 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
-                <div className="absolute top-1/2 left-8 w-2 h-2 bg-red-400/50 rounded-full animate-ping"></div>
-                <div className="absolute top-1/4 right-12 w-3 h-3 bg-red-400/50 rounded-full animate-ping" style={{ animationDelay: '2s' }}></div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   );
